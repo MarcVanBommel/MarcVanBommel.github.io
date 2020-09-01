@@ -24,14 +24,14 @@ Dit semester wil ik de basis leren van cryptografie en daarbij ook kennis maken 
 | ---- | -------------------------------- | -------------------------------- |
 | 1    |                                  |                                  |
 | 2    | vacatures zoeken & misuse case   | applicatie kiezen                |
-| 3    | standaard veiligheids principes  |                                  |
-| 4    | regular expressions & AES        |                                  |
+| 3    | standaard veiligheids principes  | R&D security requirements & R&D define threats  |
+| 4    | regular expressions & AES        | R&D misue cases & security controls             |
 | 5    | data encryption & RSA            |                                  |
 | 6    | security logging & code analysis |                                  |
 | 7    | source code review               | redteam bueteam dag voorbereiden |
 | 8    | secure configuration review      | redteam bueteam dag voorbereiden |
 | 9    | bug fixes                        |                                  |
-| 10   | fuzzing                          |                                  |
+| 10   | fuzzing                          |  R&D fuzzing                                    |
 | 11   | google auth                      |  new two-factor                  |
 | 12   | chaptcha                         |                                  |
 | 13   | database security                | AES or RSA                       |
