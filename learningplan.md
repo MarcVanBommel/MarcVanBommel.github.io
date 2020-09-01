@@ -20,7 +20,7 @@ Dit semester wil ik de basis leren van cryptografie en daarbij ook kennis maken 
 
 ## Planning
 | week | exercises                        | challenges                       |
-| ---- |:--------------------------------:| --------------------------------:|
+| ---- | -------------------------------- | -------------------------------- |
 | 1    |                                  |                                  |
 | 2    | vacatures zoeken & misuse case   | applicatie kiezen                |
 | 3    | standaard veiligheids principes  |                                  |
