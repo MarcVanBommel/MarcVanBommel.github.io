@@ -1,3 +1,3 @@
 # Marc van Bommel
 
-## Cyber Security - Security engineer
+## Cyber Security - Security engineering
