@@ -25,21 +25,21 @@ Dit semester wil ik de basis leren van cryptografie en daarbij ook kennis maken 
 
 ## Planning
 
-| week | exercises                        | challenges                       |
-| ---- | -------------------------------- | -------------------------------- |
-| 1    |                                  |                                  |
-| 2    | vacatures zoeken & misuse case   | applicatie kiezen                |
-| 3    | standaard veiligheids principes  | R&D security requirements & R&D define threats  |
-| 4    | regular expressions & AES        | R&D misue cases & security controls             |
-| 5    | data encryption & RSA            |                                  |
-| 6    | security logging & code analysis |                                  |
-| 7    | source code review               | redteam blueteam dag voorbereiden |
-| 8    | secure configuration review      | redteam blueteam dag voorbereiden |
-| 9    | bug fixes                        |                                  |
-| 10   | fuzzing                          |  R&D fuzzing                                    |
-| 11   | google auth                      |  new two-factor                  |
-| 12   | chaptcha                         |                                  |
-| 13   | database security                | AES or RSA                       |
+| week | exercises                        | challenges                                       | workshops  |
+| ---- | -------------------------------- | ------------------------------------------------ | ---------- |
+| 1    |                                  |                                                  |
+| 2    | vacatures zoeken & misuse case   | applicatie kiezen                                |
+| 3    | standaard veiligheids principes  | R&D security requirements & R&D define threats   |
+| 4    | regular expressions & AES        | R&D misue cases & security controls              |
+| 5    | data encryption & RSA            |                                                  |
+| 6    | security logging & code analysis |                                                  |
+| 7    | source code review               | redteam blueteam dag voorbereiden                |
+| 8    | secure configuration review      | redteam blueteam dag voorbereiden                |
+| 9    | bug fixes                        |                                                  |
+| 10   | fuzzing                          |  R&D fuzzing                                     |
+| 11   | google auth                      |  new two-factor                                  |
+| 12   | chaptcha                         |                                                  |
+| 13   | database security                | AES or RSA                                       |
 | 14   |                                  | side channel & redteam blueteam dag voorbereiden |
-| 15   |                                  | redteam blueteam dag voorbereiden |
-| 16   |                                  |                                  |
+| 15   |                                  | redteam blueteam dag voorbereiden                |
+| 16   |                                  |                                                  |
