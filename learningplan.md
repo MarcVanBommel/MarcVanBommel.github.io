@@ -19,7 +19,7 @@ Ik wil dit semester er voor zorgen dat ik meer uit ga van security by design. De
 ### Zachte vaardigheden
 
 
-## Wensen en goals
+## Wensen en doelen
 
 Dit semester wil ik de basis leren van cryptografie en daarbij ook kennis maken met cryptografische algoritmiek. 
 
