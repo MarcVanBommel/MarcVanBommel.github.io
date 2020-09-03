@@ -1,6 +1,6 @@
 # Marc van Bommel
 
-![Marc van Bommel](./images/marc_small.jpg)
+![Marc van Bommel](./images/marc_small.jpg { border-radius: "50%" align="right"})
 
 ## FHICT
 
