@@ -1,6 +1,6 @@
 # FHICT
 
-![Marc van Bommel](./images/marc_small.jpg ){: border-radius="50%" align="right" with="200px" margin="60px 0px 0px 10px"}
+![Marc van Bommel](./images/marc_small.jpg ){: border-radius="50%" align="right" width="200px" margin="60px 0px 0px 10px"}
 
 Ik zit momenteel in het 7de semester van de opleiding Fontys hogeschool ICT. Ik ben nu bezig met een minor in cyber security, waarbij ik heb gekozen voor de richting security engineering. Hier heb ik voor gekozen omdat ik afstudeer als software engineer en deze richting het meeste waarde toevoegt aan mij als software engineer. Eerder in mijn opleiding heb ik beide cyber security specialisaties gevolgd, dus heb ik ook enige ervaring in red en blue teaming.
 
