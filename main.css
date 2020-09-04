@@ -87,3 +87,33 @@ h2{
   width: 200px;
   margin-left:10px;
 }
+
+/* Cards */
+
+.card {
+  transition: 0.3s;
+  width: 25%;
+  background-color: #151515;
+  border-radius: 5px; /* 5px rounded corners */
+  margin: 0 auto;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+
+/* Add rounded corners to the top left and the top right corner of the image */
+.card img {
+  border-radius: 5px 5px 0 0;
+  width: 50px;
+}
+
+.flex {
+  display: flex;
+}
+
+.container h4 {
+  text-align: center;
+  font-size: 18px;
+}
