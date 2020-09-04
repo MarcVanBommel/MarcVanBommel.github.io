@@ -11,6 +11,10 @@ h2{
   font-size: 20px;
 }
 
+#header_wrap .inner {
+  padding: 20px 10px;
+}
+
 /* nav bar */
 .nav{
   text-align: center;
