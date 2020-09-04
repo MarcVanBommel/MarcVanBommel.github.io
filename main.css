@@ -95,6 +95,7 @@ h2{
   width: 25%;
   border-radius: 5px; /* 5px rounded corners */
   margin: 0 auto;
+  border: 1px solid #29aafe;
 }
 
 .card:hover {
