@@ -1,12 +1,13 @@
+/* general */
 .inner{
   max-width: 900px;
 }
-
+/* nav bar */
 .nav{
   text-align: center; 
   background-color: white;
 }
-
+/* footer */
 .social-icons {
   text-align: right
 }
@@ -51,4 +52,12 @@
 .social-icons a:active, .social-icons a:focus, .social-icons a:hover {
   color: #fff;
   background-color: #29aafe
+}
+
+/* about me */
+.about_me_img{
+  border-radius: 50%;
+  align-content: right;
+  width: 200px;
+  margin: 60px 0px 0px 10px;
 }
