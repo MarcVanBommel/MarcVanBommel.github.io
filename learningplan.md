@@ -18,6 +18,7 @@ Ik wil dit semester er voor zorgen dat ik meer uit ga van security by design. De
 
 ### Zachte vaardigheden
 
+Dit semester moet ik werken aan het feedback vragen, dit moet ik vaker doen en dit moet ik ook van het begin af aan goed in mijn portfolio gaan verwerken. Verder wil ik gaan werken aan mijn presentatie vaardigheden.
 
 ## Wensen en doelen
 
@@ -25,13 +26,13 @@ Dit semester wil ik de basis leren van cryptografie en daarbij ook kennis maken 
 
 ## Planning
 
-| week | exercises                        | challenges                                       | workshops  |
-| ---- | -------------------------------- | ------------------------------------------------ | ---------- |
-| 1    |                                  |                                                  |
-| 2    | vacatures zoeken & misuse case   | applicatie kiezen                                |
+| week | exercises                        | challenges                                       | workshops                   |
+| ---- | -------------------------------- | ------------------------------------------------ | --------------------------- |
+| 1    | learningplan setup               | portfolio setup                                  |
+| 2    | vacatures zoeken & misuse case   | applicatie kiezen                                |inovation, ethics & research |
 | 3    | standaard veiligheids principes  | R&D security requirements & R&D define threats   |
 | 4    | regular expressions & AES        | R&D misue cases & security controls              |
-| 5    | data encryption & RSA            |                                                  |
+| 5    | data encryption & RSA            | R&D misue cases & security controls              |
 | 6    | security logging & code analysis |                                                  |
 | 7    | source code review               | redteam blueteam dag voorbereiden                |
 | 8    | secure configuration review      | redteam blueteam dag voorbereiden                |
