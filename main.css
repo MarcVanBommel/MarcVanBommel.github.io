@@ -2,6 +2,15 @@
 .inner{
   max-width: 900px;
 }
+
+h1{
+  font-size: 30px;
+}
+
+h2{
+  font-size: 20px;
+}
+
 /* nav bar */
 .nav{
   text-align: center;
