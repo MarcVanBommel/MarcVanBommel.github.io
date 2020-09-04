@@ -93,7 +93,6 @@ h2{
 .card {
   transition: 0.3s;
   width: 25%;
-  background-color: #151515;
   border-radius: 5px; /* 5px rounded corners */
   margin: 0 auto;
 }
@@ -107,6 +106,7 @@ h2{
 .card img {
   border-radius: 5px 5px 0 0;
   width: 50px;
+  height: 162px;
 }
 
 .flex {

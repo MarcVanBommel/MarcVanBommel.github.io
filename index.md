@@ -2,7 +2,7 @@
 
 ## Cyber Security - Security engineering
 
-welkom op het cyber security portfolio van Marc van bommel, geschreven in het najaar van 2020. Dit portfolio bevat alle projecten en informatie die verzamelt is tijdens deze minor. Binnen dit portfolio zijn er drie onderdelen, het leerplan, het R&D project en de security specialisatie.
+welkom op het cyber security portfolio van Marc van Bommel, geschreven in het najaar van 2020. Dit portfolio bevat alle projecten en informatie die verzamelt is tijdens deze minor. Binnen dit portfolio zijn er drie onderdelen, het leerplan, het R&D project en de security specialisatie.
 
 <div class="flex">
     <div class="card" onclick="location.href='{{site.baseurl}}/learningplan';">
