@@ -57,7 +57,7 @@
 /* about me */
 .about_me_img{
   border-radius: 50%;
-  align-content: right;
+  float: right;
   width: 200px;
   margin: 60px 0px 0px 10px;
 }
