@@ -9,10 +9,10 @@ ik heb twee gebruikers groepen, de gewone gebruikers groep, wat gewoon de mensen
 ## globale architectuur
 
 ik ga een firewall maken tussen het internet en de webserver om de webserver te beveiligen. tussen de webserver en de database ga ik ook een firewall maken om de database extra te beveiligen. ik twijfel nog of ik de frontend en backend op een apparte server zet. dit ga ik waarschijnlijk wel doen als ik genoeg tijd heb.
-![netwerk schets](./images/netwerkDiagram.jpg ){:}
+![netwerk schets](./images/netwerkDiagram.jpg ){: }
 
 hieronder staat een diagram met de globale opbouw van de classes en lagen binnen mijn applicatie, ook staan de modellen beschreven.
-![globale architectuur](./images/generalArchitecture.jpg ){:}
+![globale architectuur](./images/generalArchitecture.jpg ){: }
 
 ## veiligheidsanalyse
 
@@ -32,11 +32,12 @@ Permissions
 | gebruikers account | CRU   | R\*\* D\*\*\*  |
 | bank admin account | CRU   | D\*\*\*\*      |
 | transacties        | CR\*  | C\*\*\*\*\* R  |
-1 gebruikers kunnen alleen transacties in zien van en naar hun eigen bankrekening 
-2 admins kunnen alleen gebruikers accounts inzien met de juiste rechtelijke toesteming.
-3 admins kunnen alleen gebruikers accounts verwijderen met toestemming van de gebruiker.
-4 admins kunnen alleen bankrekeningen verwijderen als het gebruikers account verwijderd is.
-5 admins kunnen alleen transacties maken die andere transacties ongedaan maken.
+
+\* gebruikers kunnen alleen transacties in zien van en naar hun eigen bankrekening 
+\*\* admins kunnen alleen gebruikers accounts inzien met de juiste rechtelijke toesteming.
+\*\*\* admins kunnen alleen gebruikers accounts verwijderen met toestemming van de gebruiker.
+\*\*\*\* admins kunnen alleen bankrekeningen verwijderen als het gebruikers account verwijderd is.
+\*\*\*\*\* admins kunnen alleen transacties maken die andere transacties ongedaan maken.
 
 CIA and Privacy
 
