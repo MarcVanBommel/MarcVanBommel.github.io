@@ -26,21 +26,23 @@ Dit semester wil ik de basis leren van cryptografie en daarbij ook kennis maken 
 
 ## Planning
 
-| week | exercises                        | challenges                                       | workshops                   |
-| ---- | -------------------------------- | ------------------------------------------------ | --------------------------- |
-| 1    | learningplan setup               | portfolio setup                                  |
-| 2    | vacatures zoeken & misuse case   | applicatie kiezen                                |inovation, ethics & research |
-| 3    | standaard veiligheids principes  | R&D security requirements & R&D define threats   |
-| 4    | regular expressions & AES        | R&D misue cases & security controls              |
-| 5    | data encryption & RSA            | R&D misue cases & security controls              |
-| 6    | security logging & code analysis |                                                  |
-| 7    | source code review               | redteam blueteam dag voorbereiden                |
-| 8    | secure configuration review      | redteam blueteam dag voorbereiden                |
-| 9    | bug fixes                        |                                                  |
-| 10   | fuzzing                          |  R&D fuzzing                                     |
-| 11   | google auth                      |  new two-factor                                  |
-| 12   | chaptcha                         |                                                  |
-| 13   | database security                | AES or RSA                                       |
-| 14   |                                  | side channel & redteam blueteam dag voorbereiden |
-| 15   |                                  | redteam blueteam dag voorbereiden                |
-| 16   |                                  |                                                  |
+| week | exercises                              | challenges                                             | workshops                   |
+| ---- | -------------------------------------- | ------------------------------------------------------ | --------------------------- |
+| 1    | learningplan setup                     | portfolio setup                                        |
+| 2    | vacatures zoeken(m) & misuse case(M)   | applicatie kiezen(M)                                   |inovation, ethics & research |
+| 3    | standaard veiligheids principes(M)     | R&D security requirements(M) & R&D define threats(M)   |
+| 4    | regular expressions(M) & AES(M)        | R&D misue case(M)s & security controls(M)              |
+| 5    | data encryption(M) & RSA(M)            | R&D misue cases(M) & security controls(M)              |
+| 6    | security logging(M) & code analysis(M) |                                                        |
+| 7    | source code review(M)                  | redteam blueteam dag voorbereiden(M)                   |
+| 8    | secure configuration review(M)         | redteam blueteam dag voorbereiden(M)                   |
+| 9    | bug fixes(M)                           |                                                        |
+| 10   | fuzzing(M)                             |  R&D fuzzing(M)                                        |
+| 11   | google auth(S)                         |  new two-factor(S)                                     |
+| 12   | chaptcha(S)                            |                                                        |
+| 13   | database security(S)                   | AES(C)  or RSA(C)                                      |
+| 14   |                                        | side channel(C) & redteam blueteam dag voorbereiden(M) |
+| 15   |                                        | redteam blueteam dag voorbereiden(M)                   |
+| 16   |                                        |                                                        |
+
+een volledige beschrijving van de exercises en challenges kan [hier](https://fhict.instructure.com/courses/10171/pages/setting-up-a-learning-plan-and-portfolio?module_item_id=530526) gevonden worden.
