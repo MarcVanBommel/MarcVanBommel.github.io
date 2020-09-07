@@ -13,7 +13,7 @@ ik ga een firewall maken tussen het internet en de webserver om de webserver te 
 ![netwerk schets](./images/netwerkDiagram.jpg ){: height="450px"}
 
 hieronder staat een diagram met de globale opbouw van de classes en lagen binnen mijn applicatie, ook staan de modellen beschreven.
-![globale architectuur](./images/generalArchitecture.jpg ){: width="500px" }
+![globale architectuur](./images/generalArchitecture.jpg ){: width="650px" }
 
 ## veiligheidsanalyse
 
