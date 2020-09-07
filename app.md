@@ -9,6 +9,7 @@ ik heb twee gebruikers groepen, de gewone gebruikers groep, wat gewoon de mensen
 ## globale architectuur
 
 ik ga een firewall maken tussen het internet en de webserver om de webserver te beveiligen. tussen de webserver en de database ga ik ook een firewall maken om de database extra te beveiligen. ik twijfel nog of ik de frontend en backend op een apparte server zet. dit ga ik waarschijnlijk wel doen als ik genoeg tijd heb.
+
 ![netwerk schets](./images/netwerkDiagram.jpg ){: height="450px"}
 
 hieronder staat een diagram met de globale opbouw van de classes en lagen binnen mijn applicatie, ook staan de modellen beschreven.
