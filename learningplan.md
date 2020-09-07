@@ -29,7 +29,7 @@ Dit semester wil ik de basis leren van cryptografie en daarbij ook kennis maken 
 | week | exercises                              | challenges                                             | workshops                   |
 | ---- | -------------------------------------- | ------------------------------------------------------ | --------------------------- |
 | 1    | learningplan setup                     | portfolio setup                                        |
-| 2    | vacatures zoeken(m) & misuse case(M)   | applicatie kiezen(M)                                   |inovation, ethics & research |
+| 2    | vacatures zoeken(M) & misuse case(M)   | applicatie kiezen(M)                                   |inovation, ethics & research |
 | 3    | standaard veiligheids principes(M)     | R&D security requirements(M) & R&D define threats(M)   |
 | 4    | regular expressions(M) & AES(M)        | R&D misue case(M)s & security controls(M)              |
 | 5    | data encryption(M) & RSA(M)            | R&D misue cases(M) & security controls(M)              |
