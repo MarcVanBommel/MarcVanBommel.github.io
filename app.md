@@ -35,7 +35,7 @@ Permissions
 | Bank admin account | CRU   | D\*\*\*\*      |
 | Transacties        | CR\*  | C\*\*\*\*\* R  |
 
-\* Gebruikers kunnen alleen transacties in zien van en naar hun eigen bankrekening 
+\* Gebruikers kunnen alleen transacties in zien van en naar hun eigen bankrekening.
 \*\* Admins kunnen alleen gebruikers accounts inzien met de juiste rechtelijke toesteming.
 \*\*\* Admins kunnen alleen gebruikers accounts verwijderen met toestemming van de gebruiker.
 \*\*\*\* Admins kunnen alleen bankrekeningen verwijderen als het gebruikers account verwijderd is.
