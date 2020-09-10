@@ -29,7 +29,7 @@ h2{
   font-size: 23px;
 }
 
-.nav a{
+.navlink{
   color: #29aafe;
   padding-right: 20px;
 }
@@ -37,9 +37,6 @@ h2{
 .dropdown {
   position: relative;
   display: inline-block;
-}
-.dropdownbtn {
-  padding-right: 0px;
 }
 
 .dropdown-content {
