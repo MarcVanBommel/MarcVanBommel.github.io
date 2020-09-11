@@ -3,7 +3,7 @@ Om een goed idee te krijgen van het mogelijke misbruik van de applicatie heb ik 
 | naam                     | SQL injectie |
 | ------------------------ | ------------ |
 | Samenvatting             | Door een gebrek aan filtering kan een gebruiker SQL invoeren en wordt deze uitgevoerd. |
-| Beschrijving             | 1. De misactor voert SQL-code in in een textbox 2. De SQL-Server voert deze code uit 3. De misactor krijgt de resultaten terug 4. De misactor kan de hele database uitlezen en zelfs aanpassen|
+| Beschrijving             | <ol> <li>De misactor voert SQL-code in in een textbox </li><li> De SQL-Server voert deze code uit </li><li> De misactor krijgt de resultaten terug </li><li> De misactor kan de hele database uitlezen en zelfs aanpassen <li> </ol> |
 | Beveiligen               | 1. scheiding van data 2. rollen 3. filteren van gebruikersinput |
 | Aannamens                | - |
 | grootste risico          | De misactor kan alle data uitlezen, aanpassen en verwijderen |
