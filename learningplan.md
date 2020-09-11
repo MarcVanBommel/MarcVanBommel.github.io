@@ -46,3 +46,5 @@ Dit semester wil ik de basis leren van cryptografie en daarbij ook kennis maken 
 | 16   |                                        |                                                        |
 
 een volledige beschrijving van de exercises en challenges kan [hier](https://fhict.instructure.com/courses/10171/pages/setting-up-a-learning-plan-and-portfolio?module_item_id=530526) gevonden worden.
+
+Ik ben nog opzoek naar een of meer seminars over security engineering die ik bij kan wonen maar deze heb ik nog niet gevonden.
