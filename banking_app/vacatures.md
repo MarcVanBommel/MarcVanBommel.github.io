@@ -4,7 +4,7 @@
 
 Een netwerk security engineer moet bekend zijn met de meest gangbare protocollen zoals ssh,ssl https, smtp, dhcp enz.  vaak worden er ook certificaten gevraagt als oscp, ceh, cissp. Ook wordt er kennis gevraagt van windows en linux.
 
-Een applicatie security engineer word ook vaak gevraagt om cyber security certificaten zoals oscp, maar ook meer ontwerp gerichte certificaten als itil en asl. Daarnaast zijn er vaak branch specifieke eisen. Daarnaast wordt er vaak gevraagt om ervaring met het beveiligen van applicaties in de cloud.
+Een applicatie security engineer word ook vaak gevraagt om cyber security certificaten zoals oscp, maar ook meer certificaten die andere bedrijfstakken koppelen aan de cybersecurity als itil en asl. Daarnaast zijn er vaak branch specifieke eisen. Daarnaast wordt er vaak gevraagt om ervaring met het beveiligen van applicaties in de cloud.
 
 ## taken en verantwoordelijkheden
 
@@ -14,4 +14,4 @@ De applicatie security engineer moet er voor zorgen dat er gewerkt word via secu
 
 ## aanpassingen leerplan
 
-omdat veel vacatures vragen om een certificaat ga ik uitzoeken wat je voor die certificaten moet doen en hier alvast voor oefenen. Ik ga hier vooral kijken naar de certificaten die bij applicatie security engineering worden gevraagd omdat dat de richting is waar heen wil gaan.
+omdat veel vacatures vragen om een certificaat ga ik uitzoeken wat je voor die certificaten moet doen en hier alvast voor oefenen. Ik ga hier vooral kijken naar de certificaten die bij applicatie security engineering worden gevraagd omdat dat de richting is waar heen wil gaan. Veel sertificaten zijn meer gericht op red en blue teaming. Het CSSLP certificaat is wel erg interesant. ook wil ik gaan kijken naar het CEH certificaat omdat dit meer teoretisch is en dus makkelijker vanuit huis te leren.
