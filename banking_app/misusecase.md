@@ -1,5 +1,7 @@
 Om een goed idee te krijgen van het mogelijke misbruik van de applicatie heb ik misusecases gemaakt. Hierin valt te lezen hoe een hacker misbruik zou kunnen proberen te maken van delen van de applicatie. Ook staan er manieren in om de applicatie te beveiligen tegen deze aanvallen.
 
+![Marc van Bommel](./images/../../images/misusecase_diagram.jpg ){: }
+
 | naam                     | SQL injectie |
 | ------------------------ | ------------ |
 | Samenvatting             | Door een gebrek aan filtering kan een gebruiker SQL invoeren en wordt deze uitgevoerd. |
@@ -46,4 +48,28 @@ Om een goed idee te krijgen van het mogelijke misbruik van de applicatie heb ik 
 | Preventie garantie       | b1. Een DoS en sommige DDoS aanval wordt minder waarschijnlijk b2. Een DDoS aanval is niet meer mogelijk maar een DoS-fout nog wel |
 | Stakeholders and threats | De stakeholders zijn alle gebruikers. Omdat nietmand de applicatie kan gebruiken kost dit veel tijd en geld |
 | Scope                    | De gehele applicatie |
+| Ondernomen Stappen       | |
+
+| naam                     | MitM |
+| ------------------------ | ------------ |
+| Samenvatting             | Door een gebrek aan SSl kan een gebruiker de data die wordt verstuurd van en naar de server lezen. |
+| Beschrijving             | 1. De misactor voert een MitM aanval uit op een netwerk waarop de app gebruikt wordt 2. Een gebruiker gebruikt de app  3. De misactor krijgt alle verstuurde data te zien en kan deze aanpassen |
+| Beveiligen               | 1. het afdwingen van SSL |
+| Aannamens                | - |
+| grootste risico          | De misactor kan alle verzonden data uitlezen, aanpassen en verwijderen |
+| Preventie garantie       | b1. De misactor kan wel de connecties zien maar de data is versleuteld en dus niet te gebruiken |
+| Stakeholders and threats | De stakeholders zijn iedereen die de applicatie gebruikt op het netwerk met de MitM, omdat de server niet kan zien of de data tijdens het verzenden is aangepast kan dit ervoor zorgen dat er geld naar een verkeerd account gestuurd wordt. |
+| Scope                    | Alle data die wordt verzonden tussen een client en de server  |
+| Ondernomen Stappen       | |
+
+| naam                     | bruteforce |
+| ------------------------ | ------------ |
+| Samenvatting             | Door een gebrek aan timeouts en capcha's kan een gebruiker oneindig vaak proberen zijn wachtwoord te raden |
+| Beschrijving             | 1. De misactor laat een programma proberen om in te loggen door middel van een bruteforce of library attack 2. de server reageert telekens of het inloggen gelukt is 3. De misactor krijgt de resultaten terug uit het programma 4. De misactor kan nu inloggen met een gevonden combinatie van gebruikersnaam en wachtwoord|
+| Beveiligen               | 1. timeouts na x keer inloggen 2. capcha's |
+| Aannamens                | - |
+| grootste risico          | De misactor kan inloggen op andermans account en vanuit daar geld overmaken |
+| Preventie garantie       | b1. De misactor kan de aanval wel uitvoeren maar die duurt veel langer b2. bruteforce programma's kunnen niet omgaan met capcha's hierdoor worden bruteforce en library attack's voorkomen. |
+| Stakeholders and threats | De stakeholders zijn iedereen die de applicatie gebruikt, omdat er gezocht kan worden naar een combinatie van gebruikersnaam en wachtwoord. een klant kan veel geld verliezen als een hacker inbreekt in zijn of haar account. Verder zorgt dit voor een verlies van vertrouwen |
+| Scope                    | Alle accounts.  |
 | Ondernomen Stappen       | |
