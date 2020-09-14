@@ -38,7 +38,7 @@ Dit semester wil ik de basis leren van cryptografie en daarbij ook kennis maken 
 | 8    | secure configuration review(M)         | redteam blueteam dag voorbereiden(M)                   |
 | 9    | bug fixes(M)                           |                                                        |
 | 10   | fuzzing(M)                             |  R&D fuzzing(M)                                        |
-| 11   | google auth(S)                         |  new two-factor(S)                                     |
+| 11   | google auth(S)                         |  new two-factor(S)                                     | reverse engineering          |
 | 12   | chaptcha(S)                            |                                                        |
 | 13   | database security(S)                   | AES(C)  or RSA(C)                                      |
 | 14   |                                        | side channel(C) & redteam blueteam dag voorbereiden(M) |

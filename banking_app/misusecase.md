@@ -1,6 +1,12 @@
+## security architecture
+
+hieronder staat een diagram waarin wordt aangegeven welk onderdeel van de applicatie welke soort beveiliging toepast.
+
+![security architecture](./../images/security_architecture.jpg){: }
+
 Om een goed idee te krijgen van het mogelijke misbruik van de applicatie heb ik misusecases gemaakt. Hierin valt te lezen hoe een hacker misbruik zou kunnen proberen te maken van delen van de applicatie. Ook staan er manieren in om de applicatie te beveiligen tegen deze aanvallen.
 
-![Marc van Bommel](./images/../../images/misusecase_diagram.jpg ){: }
+![misusecase diagram](./images/../../images/misusecase_diagram.jpg ){: }
 
 | naam                     | SQL injectie |
 | ------------------------ | ------------ |

@@ -26,6 +26,11 @@ Data assets
 * Bank admin account
 * Transactie
 
+Rollen
+
+* gebruiker
+* admin
+
 Permissions
 
 |                    | User  | admin          |
@@ -61,3 +66,5 @@ Het gebruikers account bevat normale persoonlijke data dat is waarom die op pers
 ## Ontwikkel tools and technieken
 
 Ik ga ontwikkelen in asp.net core met een frontend van angular. Hier heb ik voor gekozen omdat ik hier de meeste ervaring mee heb. Ik gebruik entity framework om mijn queries te vergemakkelijke en een extra beveiliging toe te voegen.
+
+Voor de multifactor authenticatie wil ik gebruikt gaan maken van een vinger print scanner om zo de vingerafdruk te verglijken.
