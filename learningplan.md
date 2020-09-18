@@ -1,5 +1,7 @@
 # Plan van aanpak minor 2020
 
+Dit semester ga ik werken aan de minor cyber security met als richting security engineering. Hiervoor heb ik gekozen omdat er in mijn hoofd richting, software engeneering, te weinig aan dacht wordt gegeven naar mijn mening. Binnen software engineering wordt er wel wat aandacht aan de beveiliging gegeven maar te weinig en de docenten vinden het niet heel belangrijk. Zelf denk ik dat dit onderdeel van programeren juist steeds belangrijker word en dat er meer en meer vraag komt vanuit de samenleving voor veilige applicaties.
+
 ## Vaardigheden
 
 In dit hoofdstuk worden de vaardigheden beschreven die ik dit semester wil leren. Hierbij gaat het niet alleen over technische vaardigheden. Aan de hand van deze vaardigheden wordt er uiteindelijk een planning gemaakt.
@@ -30,18 +32,18 @@ Dit semester wil ik de basis leren van cryptografie en daarbij ook kennis maken 
 | ---- | -------------------------------------- | ------------------------------------------------------ | --------------------------- |
 | 1    | learningplan setup                     | portfolio setup                                        |
 | 2    | vacatures zoeken(M) & misuse case(M)   | applicatie kiezen(M)                                   |inovation, ethics & research |
-| 3    | standaard veiligheids principes(M)     | R&D security requirements(M) & R&D define threats(M)   |
-| 4    | regular expressions(M) & AES(M)        | R&D misue case(M)s & security controls(M)              |
-| 5    | data encryption(M) & RSA(M)            | R&D misue cases(M) & security controls(M)              |
-| 6    | security logging(M) & code analysis(M) |                                                        |
-| 7    | source code review(M)                  | redteam blueteam dag voorbereiden(M)                   |
+| 3    | een blog schrijven over de standaard veiligheids principes(M) | R&D security requirements(M) & R&D define threats(M)   |
+| 4    | regular expressions toepassen als input filtering(M) & handmatig een AES berekening maken(M) | R&D misue case(M)s & security controls(M) |
+| 5    | data encryption toepassen door gebruik van AES(M) & RSA berekeningen maken(M)            | R&D misue cases(M) & security controls(M) |
+| 6    | security logging toepassen in mijn app(M) & static code analysis en overleg met medestudent(M)  |                               |
+| 7    | source code review van een tool of app(M) | redteam blueteam dag voorbereiden(M)                |
 | 8    | secure configuration review(M)         | redteam blueteam dag voorbereiden(M)                   |
 | 9    | bug fixes(M)                           |                                                        |
-| 10   | fuzzing(M)                             |  R&D fuzzing(M)                                        |
-| 11   | google auth(S)                         |  new two-factor(S)                                     | reverse engineering          |
-| 12   | chaptcha(S)                            |                                                        |
-| 13   | database security(S)                   | AES(C)  or RSA(C)                                      |
-| 14   |                                        | side channel(C) & redteam blueteam dag voorbereiden(M) |
+| 10   | fuzzing test maken voor bufferoverflow and DOS(M) |  R&D fuzzing tests maken(M)                 |
+| 11   | google auth(S) toepassen als two factor |  fingerprint scan als 2-factor(S)                     | reverse engineering          |
+| 12   | chaptcha toepassen op mijn app(S)      |                                                        |
+| 13   | database security onderzoeken en toepassen(S) | AES(C)  or RSA toepassen op mijn app(C)         |
+| 14   |                                        | AES of RSA checken voor side channel attacks(C) & redteam blueteam dag voorbereiden(M) |
 | 15   |                                        | redteam blueteam dag voorbereiden(M)                   |
 | 16   |                                        |                                                        |
 
