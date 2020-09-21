@@ -33,7 +33,7 @@ Dit semester wil ik de basis leren van cryptografie en daarbij ook kennis maken 
 | 1    | learningplan setup                     | portfolio setup                                        |
 | 2    | vacatures zoeken(M) & misuse case(M)   | applicatie kiezen(M)                                   |inovation, ethics & research |
 | 3    | een blog schrijven over de standaard veiligheids principes(M) | R&D security requirements(M) & R&D define threats(M)   |
-| 4    | regular expressions toepassen als input filtering(M) & handmatig een AES berekening maken(M) | R&D misue case(M)s & security controls voor smartoffice(M) |
+| 4    | regular expressions toepassen als input filtering(M) & handmatig een AES berekening maken(M) | R&D misue case(M)s & security controls voor smartoffice(M) | project management |
 | 5    | data encryption toepassen door gebruik van AES(M) & RSA berekeningen maken(M)            | R&D misue cases(M) & security controls voor airscrubber(M) |
 | 6    | security logging toepassen in mijn app(M) & static code analysis en overleg met medestudent(M)  |                               |
 | 7    | source code review van een tool of app(M) | redteam blueteam dag voorbereiden(M)                |
