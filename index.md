@@ -11,13 +11,13 @@ welkom op het cyber security portfolio van Marc van Bommel, geschreven in het na
             <h4><b>Learning plan</b></h4>
         </div>
     </div>
-    <div class="card" onclick="location.href='{{site.baseurl}}/intersect';">
+    <div class="card" onclick="location.href='{{site.baseurl}}/project/intersect';">
         <img src="./images/intersct_logo.jpg" alt="R&D project" style="width:100%">
         <div class="container">
             <h4><b>R&D project</b></h4>
         </div>
     </div>
-    <div class="card" onclick="location.href='{{site.baseurl}}/aboutme';">
+    <div class="card" onclick="location.href='{{site.baseurl}}/banking_app/app';">
         <img src="./images/security_engeneering_placeholder.jpg" alt="security specialisation" style="width:100%">
         <div class="container">
             <h4><b>Security specialisation</b></h4>
