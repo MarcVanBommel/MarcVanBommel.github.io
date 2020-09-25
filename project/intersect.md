@@ -1,6 +1,6 @@
 # intersect
 
-![intersect logo](../images/intersct_logo.jpg)
+![intersect logo](../images/intersct_logo.jpg){: class="intersect_img"}
 
 Het Research en development(R&D) project waar ik dit semester aan mee werkt is het project van Intersect. Dit project is een set guidelines voor IoT devices binnen Smart industrie, Smart mobility, Smart health and Smart city. Intersect is een onderzoek dat wil zorgen voor meer veiligheid bij IOT devices.
 
