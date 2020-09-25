@@ -8,7 +8,7 @@ Hristo was begonnen aan een risico analyse, maar naar het idee van een aantal gr
 
 ## threat analyse
 
-Om een duidelijke beeld te krijgen van de mogelijke aanvallers moet er een threat analyse gedaan worden. Het probleem hierbij is dat we onderzoek doen naar vier IOT sectoren, veel aanvallers komen overeen maar natuurlijk niet allemaal. Om een duidelijk beeld te krijgen heb ik besloten om per sector een risico analyse te maken met de mogelijke aanvallers, hun motivatie en de technieken en tools die zij mogelijk gebruiken. 
+Om een duidelijke beeld te krijgen van de mogelijke aanvallers moet er een threat analyse gedaan worden. Het probleem hierbij is dat we onderzoek doen naar vier IOT sectoren, veel aanvallers komen overeen maar natuurlijk niet allemaal. Om een duidelijk beeld te krijgen heb ik besloten om per sector een risico analyse te maken met de mogelijke aanvallers, hun motivatie en de technieken en tools die zij mogelijk gebruiken.
 
 ## Misusecases
 
