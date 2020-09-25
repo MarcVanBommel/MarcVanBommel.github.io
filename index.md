@@ -12,7 +12,7 @@ welkom op het cyber security portfolio van Marc van Bommel, geschreven in het na
         </div>
     </div>
     <div class="card" onclick="location.href='{{site.baseurl}}/intersect';">
-        <img src="./images/project_placeholder.jpg" alt="R&D project" style="width:100%">
+        <img src="./images/intersct_logo.jpg" alt="R&D project" style="width:100%">
         <div class="container">
             <h4><b>R&D project</b></h4>
         </div>

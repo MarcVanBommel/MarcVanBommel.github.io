@@ -1,0 +1,1 @@
+Ook hebben we een research plan gemaakt. Hier heb ik de scope van ons project aan toegevoegd, ook heb ik de planning uitgebreid. Daarnaast heb ik een korte beschrijving toegevoegd van ons scrum board.
