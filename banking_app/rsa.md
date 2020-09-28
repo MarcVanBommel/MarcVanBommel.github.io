@@ -1,99 +1,19 @@
-# RSA berekeningen
+# RSA
 
-om rsa aan te tonen heb ik een aantal berekeningen handmatig uitgewerkt. als eerst ga ik een public en private key berekenen.
-hierbij is p =23 q = 17 en e= 53. eerst bereken ik n. daarna bereken ik φ(n) en controleer ik of e tussen φ(n) en 1 ligt.
+Net zoals AES is RSA tot op heden een van de meest gebruikte encryptie terwijl het uit 1977 stamt. In tegenstelling to AES is RSA een asymetrisch encryptie algoritme, dit betkend dat er inplaats van een key, een public en private key zijn. Ondanks de leeftijd van RSA is het tot op heden niet gelukt om het bij goede implementatie te kraken.
 
-```math
-n = 23*17 = 391
-1< e < φ(n) = φ(391) = 22 * 16 = 352
-```
+Asymetrisch encryptie wordt vooral gebruikt om Data te versturen over onveilige media zoals het internet. hierbij is de public key bekend maar is de private key alleen bekend bij degene die de encryptie heeft opgezet. Aan de hand van de public key kan iemand een bericht versleutelen en naar de server sturen, de server kan deze berichten dan weer ontsleutelen en de data gebruiken.
 
-vervolgens controleer ik of de grootste gemene deler 1 is:
+RSA maakt gebruik van 2 willekeurig gekozen priemgetallen p en q, dit zijn getallen 2 delers hebben(1 en zichzelf). Deze priemgetallen moeten erg groot zijn voor RSA om veilig te zijn. Als er een getal wordt gebruikt dat geen priemgetal is valt de beveiliging van RSA bijna volledig weg omdat de berekeningen aanzienlijk simpeler worden en dus sneller gekraakt kunnen worden.
 
-```math
-gcd(53,352) = (53, 34) = (19,34) = (19, 15) = (4,15) = (4,3) = (1, 3) = (1,0)
-```
+Als de twee priemgetallen gekozen zijn worden deze met elkaar vermenigvuldigd voor N. Van N wordt dan vervolgens het Eulergetal berekend wat omdat de twee getallen priemgetallen zijn is dit relatief makelijk door de p-regel. φ(n) = (p-1)*(q-1). vervolgens wordt er een geheel getal e tussen 1 en φ(n) gekozen. Het getal e moet relatief priem zijn ten opzichte van φ(n).
 
-hieruit blijkt dat  de grootste gemene deler inderdaad 1 is. waarmee we voldoen aan de eisen.
-vervolgens moet d berekend worden vanuit e^-1 (mod φ(n))
+Relatief priem betekend dat de twee getallen geen gemene delers hebben naast 1. Om zeker te zijn dat er geen andere gemene deler is moet de grootste gemene deler worden berekend. dit wordt gedaan door het kleinste getal een x aantal keer af te halen van het grootste getal totdat er een getal kleiner als het kleine getal overblijft. dit wordt herhaalt totdat een van de twee getallen nul is. als het overgebeleven getal groter is als 1 dan hebben en en φ(n) een andere gemene deler en is e dus niet geschikt.
 
-```math
-d = 53^-1(mod(352))
-x * 53 = 1mod(352)
+Nu e bekend is moet d berekend worden. dit wordt gedaan aan de hand van de formule ed = 1 mod(φ(n)) deze formule is om te zetten naar de formule d = e^-1(mod φ(n)). omdat e en φ(n) bekend zijn is dit uit te rekenen. d is hierbij de inverse van e. dit betekend dat d het getal is wat ervoor zorgt dat e(mod φ(n)) gelijk is aan 1.
 
-gcd(352,53) = (53, 34) = (19,34) = (19, 15) = (4,15) = (4,3) = (1, 3) = (1,0)
-                  6*53 = 1*34 = 1* 19 = 1 * 15 = 3* 4 = 1* 3 = 3*1
+de public key is {e,n} de private key is {d,n} hieruit blijkt dus dat alleen d onbekend is in de public key, want n is het zelfde als in de public key. De formule om een bericht M te versleutelen is E(M) = M^e (mod n). De formule om een versleuteld bericht C te ontsleutelen is D(C) = C^d (mod n).
 
-34 = 352 - 6*53
-19 = 53 - 1*34
-15 = 34 - 1* 19
-4 = 19 - 1* 15
-3 = 15 - 3*4
-1 = 4 - 1*3
+aangezien e en n beide vaak enorme getallen zijn is het versleutelen en ontcijferen van berichten een erg trage taak. Dit is de reden waarom RSA niet gebruiker wordt voor het versleutelen van grote hoeveelheden data zoals schijven en databases. Hier worden vaak synchrone encryptie algoritmes voor gebruikt, waarbij de key geheim moet blijven.
 
-1 = 4 - 1*(15 -3*4) = 4 - 15 + 3*4 = 4*4 - 15
-1 = 4*(19 - 1*15) - 15 = 4*19 - 4*15 - 15 = 4*19 - 5*15
-1 = 4*19 - 5*(34 - 1*19) = 4*19 - 5*34 + 5*19 = 9*19 - 5*34
-1 = 9*(53 - 1*34) -5*34 = 9*53 - 9*34 -5*34 = 9*53 -14*34
-1 = 9*53 - 14*(352 -6*53) = 9*53 -14*352 + 84*53 = 93*53 - 14*352
-1 = 93*53 - 14*352(mod(352)
-
-1 = 93*53mod(352) - 14*0 = 93*53mod(352)
-```
-
-dus de inverse van 53 is 93 en dus is d 93
-
-dit betekend dat:
-pub = {e,n} = {53, 391}
-priv = {d,n} = {93, 391}
-
-na het berekenen van een public an private key pair ga ik nu het bericht "A" versleutelen. met een public key van (53,481) en een private key van (269,481). de ASCII waarde van A in decimaal is 65. hierbij moeten we de C = E(M) = E(65) berekenen. de formule voor E(M) = M^e(mod n).
-
-```math
-E(65) = 65^53(mod481)
-
-gcd(65,481) = (65, 26) = (13,26) = (13,0) dit betekend dat we met square and multiply moeten werken
-
-65^52 * 64(mod481)
-
-(65^2)^26 * 65(mod481) = (4225)^26 * 65(mod481) = 337^26 * 65(mod481)
-(377^2)^13 *65(mod481) = (142129)^13 * 65(mod481) = 234^13 * 65(mod481)
-
-234^12 *234 * 65(mod481)
-(234^2)^6 * 234 * 65(mod481) = 54756^6 * 234 * 65(mod481) = 403^6 * 234 * 65(mod481)
-(403^2)^3 * 234 * 65(mod481) = 162409^3 * 234 * 65(mod481) = 312^3 * 234 * 65(mod481)
-
-312^2 * 312 * 234 * 65(mod481)
-312^2 * 312 * 234 * 65(mod481) = 97344 * 312 * 234 * 65(mod481) = 182 * 312 * 234 * 65(mod481)
-
-182 * 312 * 234 * 65(mod481)
-(182*312 *234 *65)(mod481) = (56784 * 15210)(mod481) = (26 * 299)(mod481)
-(26 * 299)(mod481) = 7774(mod481) = 78
-```
-
-hieruit blijkt dat het versleutelde bericht C dus 78 is.
-
-Om de hierboven staande versleuteling te controleren en om RSA nog wat beter aan te tonen gaan ik het versleutelde Bericht C ook ontcijferen. met de formule D(c) = C^d(mod n).
-
-```math
-D(78) = 78^269(mod 481)
-
-78^268 * 78(mod 481)
-(78^2)^134 * 78(mod 481) = 6084^134 * 78(mod 481) = 312^134 * 78(mod 481)
-(312^2)^67 * 78(mod 481) = 97344^67 * 78(mod 481) = 182^67 * 78(mod 481)
-
-182^66 * 182 * 78(mod 481)
-(182^2)^33 * 182 * 78(mod 481) = 33124^33 * 182 * 78(mod 481) = 416^33 * 182 * 78(mod 481)
-
-416^32 * 416 * 182 * 78(mod 481)
-(416^2)^16 * 416 * 182 * 78(mod 481) = 173056^16 * 416 * 182 * 78(mod 481) = 337^16 * 416 * 182 * 78(mod 481)
-(377^2)^8 * 416 * 182 * 78(mod 481) = 142129^8 * 416 * 182 * 78(mod 481) = 234^8 * 416 * 182 * 78(mod 481)
-(234^2)^4 * 416 * 182 * 78(mod 481) = 54756^4 * 416 * 182 * 78(mod 481) = 403^4 * 416 * 182 * 78(mod 481)
-(403^2)^2 * 416 * 182 * 78(mod 481) = 162409^2 * 416 * 182 * 78(mod 481) = 312^2 * 416 * 182 * 78(mod 481)
-312^2 * 416 * 182 * 78(mod 481) = 97344 * 416 * 182 * 78(mod 481) = 182 * 416 * 182 * 78(mod 481)
-
-182 * 416 * 182 * 78(mod 481) = 75712 * 14196(mod 481) = 195 * 247(mod 481)
-195 * 247(mod 481) = 48165(mod481) = 65
-```
-
-hieruit blijkt de het bericht M 65 is, als we dit weer omzetten naar ASCII tekens dan is het bericht dus "A". A was ook het originele bericht dat we versleuteld hadden. hieruit is dus gebleken dat dit een succesvolle asynchrone encryptie is.
+om RSA ook op een technisch niveau aan te tonen heb ik aan aantal RSA berekeningen handmatig uitgewerkt, deze kun je [hier](./rsa_calc.md) vinden. Bij Daadwerkelijke RSA berekeningen worden grotere priem getallen gebruikt maar als voorbeeld zijn die niet optimaal.
