@@ -1,11 +1,11 @@
 # RSA berekeningen
 
 om rsa aan te tonen heb ik een aantal berekeningen handmatig uitgewerkt. als eerst ga ik een public en private key berekenen.
-hierbij is p =23 q = 17 en e= 53. eerst bereken ik n. daarna bereken ik $\phi$(n) en controleer ik of e tussen $\phi$(n) en 1 ligt.
+hierbij is p =23 q = 17 en e= 53. eerst bereken ik n. daarna bereken ik \phi(n) en controleer ik of e tussen \phi(n) en 1 ligt.
 
 ```math
 n = 23*17 = 391
-1< e < phi(n) = phi(391) = 22 * 16 = 352
+1< e < \phi(n) = \phi(391) = 22 * 16 = 352
 ```
 
 vervolgens controleer ik of de grootste gemene deler 1 is:
@@ -15,14 +15,14 @@ gcd(53,352) = (53, 34) = (19,34) = (19, 15) = (4,15) = (4,3) = (1, 3) = (1,0)
 ```
 
 hieruit blijkt dat  de grootste gemene deler inderdaad 1 is. waarmee we voldoen aan de eisen.
-vervolgens moet d berekend worden vanuit e^-1 (mod $\phi$(n))
+vervolgens moet d berekend worden vanuit e^-1 (mod \phi(n))
 
 ```math
 d = 53^-1(mod(352))
 x * 53 = 1mod(352)
 
 gcd(352,53) = (53, 34) = (19,34) = (19, 15) = (4,15) = (4,3) = (1, 3) = (1,0)
-	       6*53 = 1*34 = 1* 19 = 1 * 15 = 3* 4 = 1* 3 = 3*1
+	                6*53 = 1*34 = 1* 19 = 1 * 15 = 3* 4 = 1* 3 = 3*1
 
 34 = 352 - 6*53
 19 = 53 - 1*34
