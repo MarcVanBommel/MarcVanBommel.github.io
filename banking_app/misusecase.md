@@ -71,11 +71,47 @@ Om een goed idee te krijgen van het mogelijke misbruik van de applicatie heb ik 
 | naam                     | bruteforce |
 | ------------------------ | ------------ |
 | Samenvatting             | Door een gebrek aan timeouts en capcha's kan een gebruiker oneindig vaak proberen zijn wachtwoord te raden |
-| Beschrijving             | 1. De misactor laat een programma proberen om in te loggen door middel van een bruteforce of library attack 2. de server reageert telekens of het inloggen gelukt is 3. De misactor krijgt de resultaten terug uit het programma 4. De misactor kan nu inloggen met een gevonden combinatie van gebruikersnaam en wachtwoord|
+| Beschrijving             | 1. De misactor laat een programma proberen om in te loggen door middel van een bruteforce of library attack 2. de server reageert telkens of het inloggen gelukt is 3. De misactor krijgt de resultaten terug uit het programma 4. De misactor kan nu inloggen met een gevonden combinatie van gebruikersnaam en wachtwoord|
 | Beveiligen               | 1. timeouts na x keer inloggen 2. capcha's |
 | Aannamens                | - |
 | grootste risico          | De misactor kan inloggen op andermans account en vanuit daar geld overmaken |
 | Preventie garantie       | b1. De misactor kan de aanval wel uitvoeren maar die duurt veel langer b2. bruteforce programma's kunnen niet omgaan met capcha's hierdoor worden bruteforce en library attack's voorkomen. |
 | Stakeholders and threats | De stakeholders zijn iedereen die de applicatie gebruikt, omdat er gezocht kan worden naar een combinatie van gebruikersnaam en wachtwoord. een klant kan veel geld verliezen als een hacker inbreekt in zijn of haar account. Verder zorgt dit voor een verlies van vertrouwen |
 | Scope                    | Alle accounts.  |
+| Ondernomen Stappen       | |
+
+| naam                     | csrf |
+| ------------------------ | ------------ |
+| Samenvatting             | Door een gebrek aan input filtering kan een misactor request sturen die uit een vertrouwde user lijken te komen |
+| Beschrijving             | 1. de misactor steel een token van een gebruiker met de admin rol 2. de misactor stuurt een request naar de website met het gestolen token. De server voert de request uit omdat hij de token vertrouwd. 4.|
+| Beveiligen               | 1. korte levensduur tokens 2. random tokens |
+| Aannamens                | - |
+| grootste risico          | De misactor kan admin functies uitvoeren |
+| Preventie garantie       | b1.CSRF Token b2. Omdat de tokens maar een beperkte levensduur hebben is de kans groot dat de misuser een ongeldige token heeft. |
+| Stakeholders and threats | De stakeholders zijn de gebruikers waarvan de token gestolen is. De schade is afhankelijk van de rechten van het account. |
+| Scope                    | de eigenaar van het token.  |
+| Ondernomen Stappen       | |
+
+| naam                     | zero day |
+| ------------------------ | ------------ |
+| Samenvatting             | Doordat er een nieuwe aanval is gevonden kan een misactor misbruik maken van de applicatie |
+| Beschrijving             | 1. De misactor voert de zero day aanval uit. |
+| Beveiligen               | 1. logging |
+| Aannamens                | - |
+| grootste risico          | De misactor kan heel de applicatie misbruiken |
+| Preventie garantie       | b1. een zero day wordt eerder opgemerkt en kan dus eerder gepatched worden |
+| Stakeholders and threats | De stakeholders zijn iedereen die de applicatie gebruikt, omdat de hele applicatie een zero day kan bevatten. een klant kan veel geld verliezen als een hacker inbreekt in zijn of haar account. Verder zorgt dit voor een verlies van vertrouwen |
+| Scope                    | de gehele applicatie  |
+| Ondernomen Stappen       | |
+
+| naam                     | sniffing |
+| ------------------------ | ------------ |
+| Samenvatting             | Door een gebrek aan encryptie van de communicatie tussen de client en server kan een misactor het verkeer lezen |
+| Beschrijving             | 1. De misactor volgt al het netwerk verkeer van de client of server 2. de server stuurt onversleutelde data naar de client 3. De misactor krijgt de data te zien |
+| Beveiligen               | 1. SSl encryptie afdwingen |
+| Aannamens                | - |
+| grootste risico          | De misactor kan persoonsgegevens of wachtwoorden uitlezen |
+| Preventie garantie       | b1. De misactor kan het verkeer nog zien maar de data is versleuteld dus kan de misuser er niks mee |
+| Stakeholders and threats | De stakeholders zijn iedereen die de applicatie gebruikt, omdat hun data wordt verstuurd door de app. een klant kan veel geld verliezen als een hacker zijn wachtwoord afleest. Verder zorgt dit voor een verlies van vertrouwen |
+| Scope                    | de gehele applicatie  |
 | Ondernomen Stappen       | |
