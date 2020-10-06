@@ -18,7 +18,7 @@ Om een goed idee te krijgen van het mogelijke misbruik van de applicatie heb ik 
 | Preventie garantie       | b1. De misactor kan wel data inzien en aanpassen, maar niet alles b2. De misactor kan wel data inzien maar niet aanpassen b3. De misactor kan niks |
 | Stakeholders and threats | De stakeholders zijn iedereen die de applicatie gebruikt, omdat al deze gegevens kunnen lekken. Het kost veel tijd om alle klanten te bereiken dat er data verloren is. Verder zorgt dit voor een verlies van vertrouwen |
 | Scope                    | Alle data opgeslagen in een database.  |
-| Ondernomen Stappen       | |
+| Ondernomen Stappen       | rollen en filteren van gebruikers input |
 
 | naam                     | XXS |
 | ------------------------ | ------------ |
@@ -30,7 +30,7 @@ Om een goed idee te krijgen van het mogelijke misbruik van de applicatie heb ik 
 | Preventie garantie       | b1. De misactor kan niks |
 | Stakeholders and threats | De stakeholders zijn alle gebruikers. Het is erg moeilijk om te ontdekken wanneer er misbruik gemaakt wordt van een XSS. |
 | Scope                    | Alle pagina's in het systeem.  |
-| Ondernomen Stappen       | |
+| Ondernomen Stappen       | filteren van gebruikers input |
 
 | naam                     | Account overnamen |
 | ------------------------ | ------------ |
@@ -42,7 +42,7 @@ Om een goed idee te krijgen van het mogelijke misbruik van de applicatie heb ik 
 | Preventie garantie       | b1. de misactor kan niks als hij alleen een gebruikersnaam en wachtwoord heeft b2. de gebruiker kan een alleen dingen doen waar hij rechten voor heeft b3. de misactor heeft minder kans om een token te kunnen gebruiken |
 | Stakeholders and threats | De stakeholders is de gebruiker waarvan de inloggegevens zijn gelekt. De schade kan financieel erg groot zijn voor deze gebruiker. |
 | Scope                    |   |
-| Ondernomen Stappen       | |
+| Ondernomen Stappen       | jwt tokens met een beperkte levensduur en alle gebruikers alleen noodzakelijke rechten geven. |
 
 | naam                     | (D)DoS |
 | ------------------------ | ------------ |
@@ -90,7 +90,7 @@ Om een goed idee te krijgen van het mogelijke misbruik van de applicatie heb ik 
 | Preventie garantie       | b1.CSRF Token b2. Omdat de tokens maar een beperkte levensduur hebben is de kans groot dat de misuser een ongeldige token heeft. |
 | Stakeholders and threats | De stakeholders zijn de gebruikers waarvan de token gestolen is. De schade is afhankelijk van de rechten van het account. |
 | Scope                    | de eigenaar van het token.  |
-| Ondernomen Stappen       | |
+| Ondernomen Stappen       | jwt tokens met een beperkte levensduur. |
 
 | naam                     | zero day |
 | ------------------------ | ------------ |
