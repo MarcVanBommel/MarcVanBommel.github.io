@@ -22,10 +22,10 @@ omdat veel vacatures vragen om een certificaat ga ik uitzoeken wat je voor die c
 
 Veel vacatures zijn voor soc security engineers hierbij monitor je de veiligheid van een een applicatie en ga je de klant helpen met het oplossen van een probleem. veel van deze soc vacatures zijn in diensten. Zelf lijkt mij in een soc werken niet echt interresant. Ik ben niet echt fan van werkuren bij deze vacature omdat ik zelf liever wat meer werk als 24 uur per week.
 
-![netwerk vacature](../images/netwerk_vacature){: }
+![netwerk vacature](../images/netwerk_vacature.PNG){: }
 
 Een andere optie als security engineer is de netwerk kant op gaan. Hierbij ben je vooral verantwoordelijke voor het instaleren en configureren van netwerken. Zelf wat met een thuisnetwerk aankloten en een thuis server opzetten vind ik wel leuk maar ik heb te weinig diepte kennis van netwerken om een netwerk security engineer te worden. Dit lijkt me interessanter als in een soc werken maar is denk ik ook niet de baan voor mij.
 
-![application vacature](../images/application_vacature){: }
+![application vacature](../images/application_vacature.PNG){: }
 
 De derde optie als security engineer is een Applicatie security engineer. Dit type security engineer zit meer op het veilig ontwerken en ontwikkelen van applicaties. Dit vind ik de interessantste vorm van security engineering die ook goed aansluit op mijn achtergrond als software engineer. Deze specifieke vacature combineert wat red teaming met het veilig ontwerpen en ontwikkelen van applicaties. Dit vind ik een mooie combinatie.
