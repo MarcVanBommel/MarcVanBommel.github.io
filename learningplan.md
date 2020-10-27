@@ -35,15 +35,15 @@ Dit semester wil ik de basis leren van cryptografie en daarbij ook kennis maken 
 | 3    | een blog schrijven over de standaard veiligheids principes(M) | R&D security requirements(M) & R&D define threats(M)   |
 | 4    | regular expressions toepassen als input filtering(M) & handmatig een AES berekening maken(M) | R&D misue case(M)s & security controls voor smartoffice(M) | project management |
 | 5    | data encryption toepassen door gebruik van AES(M) & RSA berekeningen maken(M)            | R&D misue cases(M) & security controls voor airscrubber(M) |
-| 6    | security logging toepassen in mijn app(M) & static code analysis en overleg met medestudent(M)  |                               |
-| 7    | source code review van een tool of app(M) | redteam blueteam dag voorbereiden(M)                |
-| 8    | secure configuration review(M)         | redteam blueteam dag voorbereiden(M)                   |
-| 9    | bug fixes(M)                           |                                                        |
-| 10   | fuzzing test maken voor bufferoverflow and DOS(M) |  R&D fuzzing tests maken(M)                 |
-| 11   | google auth(S) toepassen als two factor |  fingerprint scan als 2-factor(S)                     | reverse engineering          |
-| 12   | chaptcha toepassen op mijn app(S)      |                                                        |
-| 13   | database security onderzoeken en toepassen(S) | AES(C)  or RSA toepassen op mijn app(C)         |
-| 14   |                                        | AES of RSA checken voor side channel attacks(C) & redteam blueteam dag voorbereiden(M) |
+| 6    |  data encryption toepassen door gebruik van AES(M) |                               |
+| 7    | security logging toepassen in mijn app(M) & static code analysis en overleg met medestudent(M) | redteam blueteam dag voorbereiden(M)                |
+| 8    | bug fixes(M)                              | redteam blueteam dag voorbereiden(M)                   |
+| 9    | source code review van een tool of app(M)           |                                                        |
+| 10   | secure configuration review(M)  |  R&D fuzzing tests maken(M)                 |
+| 11   | fuzzing test maken voor bufferoverflow and DOS(M) |  fingerprint scan als 2-factor(S)                     | reverse engineering          |
+| 12   | google auth(S) toepassen als two factor     |                                                        |
+| 13   | chaptcha toepassen op mijn app(S)  | AES(C)  or RSA toepassen op mijn app(C)         |
+| 14   | database security onderzoeken en toepassen(S) | AES of RSA checken voor side channel attacks(C) & redteam blueteam dag voorbereiden(M) |
 | 15   |                                        | redteam blueteam dag voorbereiden(M)                   |
 | 16   |                                        |                                                        |
 
