@@ -10,4 +10,10 @@ Ik ben het de algemene feedback, we moeten als groep wat meer knowledge sharing 
 
 Met mijn eigen feedback ben ik blij, want het is natuurlijk fijn om te horen dat je groep je waardeert.
 
+## sprint 1
 
+![peerreview sprint 1](../images/peer_review_sprint1.jpg){: }
+
+Ik vind het goed dat we deze sprint duidelijke stappen hebben genomen om  de scope uit te breiden omdat we te veel dagen in deze sprint hebben gehad waarbij mensen niet wisten wat ze konden doen. 
+
+omdat ik dyslecties ben moet ik extra letten op mijn spelling en mijn documentatie altijd even na lopen op spelling hier hebben mijn groepsgenoten gelijk in. Ook kan ik altijd iemand vragen om mijn spelling na te lopen.
