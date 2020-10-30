@@ -9,3 +9,7 @@ na een nmap scan zagen we dat de Android debug bridge(ADB) poort standaard open 
 het eerste wat we geprobeerd hebben is een apk installeren op het scherm, als dit lukt is het namelijk mogelijk om een remote shell apk te maken en te instaleren. Ook dit bleek erg simple met een comando.
 
 Nadat we dit getest hadden ben ik verder gaan zoeken naar meer mogelijkheden met de ADB en hieruit kwam dat je ook een adb shell kan maken. Dit vraagt weer een commando en geeft je een root shell. Ook dit vereist geen wachtwoord of verificatie.
+
+## Portable UPnP
+
+het smart screen heeft meerdere poorten open staan voor een  Portable SDK for UPnP devices 1.6.19. een eerdere versie van deze SDK had buffer overflow vulnerabilities, maar deze zijn gepatched in 1.6.18. Dat gezegd hebbende is dit wel een verouderde versie van de SDK, dus een update zou aangeraden zijn.
