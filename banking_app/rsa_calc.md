@@ -96,4 +96,4 @@ D(78) = 78^269(mod 481)
 195 * 247(mod 481) = 48165(mod481) = 65
 ```
 
-hieruit blijkt de het bericht M 65 is, als we dit weer omzetten naar ASCII tekens dan is het bericht dus "A". A was ook het originele bericht dat we versleuteld hadden. hieruit is dus gebleken dat dit een succesvolle asymetrisch encryptie is.
+hieruit blijkt dat het bericht M 65 is, als we dit weer omzetten naar ASCII tekens dan is het bericht dus "A". A was ook het originele bericht dat we versleuteld hadden. hieruit is dus gebleken dat dit een succesvolle asymmetrisch encryptie is.

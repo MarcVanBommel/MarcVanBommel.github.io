@@ -8,4 +8,6 @@ aan het eind van iedere sprint kijken we als groep terug op het functioneren van
 
 Ik ben het de algemene feedback, we moeten als groep wat meer knowledge sharing doen en we hebben een aantal mensen met een sterke mening die de rest wat kunnen over schreeuwen. Ik zelf ben een van deze mensen en ga er dus aan werken om de komende sprint wat rustiger te praten en meer om de mening van rustigere groepsgenoten te vragen.
 
-Met mijn eigen feedback ben ik blij, want het is natuurlijk fijn om te horen dat je groep je waardeerd.
+Met mijn eigen feedback ben ik blij, want het is natuurlijk fijn om te horen dat je groep je waardeert.
+
+

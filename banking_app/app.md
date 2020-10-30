@@ -8,7 +8,7 @@ Ik heb twee gebruikers groepen, de gewone gebruikers groep, wat gewoon de mensen
 
 ## Globale architectuur
 
-Ik ga een firewall maken tussen het internet en de webserver om de webserver te beveiligen. Tussen de webserver en de database ga ik ook een firewall maken om de database extra te beveiligen. Ik twijfel nog of ik de frontend en backend op een apparte server zet, dit ga ik waarschijnlijk wel doen als ik genoeg tijd heb.
+Momenteel Run ik alles als docker containers. De firewall wordt door school geregeld. Mogelijk ga ik de docker containers vervangen, dat ligt aan hoe moeilijk er extra beveiligingen op de containers toe te voegen zijn.
 
 ![netwerk schets](../images/netwerkDiagram.jpg ){: height="450px"}
 
@@ -17,7 +17,7 @@ hieronder staat een diagram met de globale opbouw van de classes en lagen binnen
 
 ## Veiligheidsanalyse
 
-Omdat de bankieren applicatie de mogelijkheid heeft om geld over te maken van het ene naar het andere account is het belangrijk om een stricte beveiliging the hebben. Een gat in de beveiliging zou illegale toegang tot een bankrekening kunnen verschaffen, dit zou het legen van deze bankrekening kunnen betekenen. Dit zorgt voor financiele problemen voor de eigenaar van de bankrekening en een beschadigde reputatie van de bank die aan de app verbonden zit.
+Omdat de bankieren applicatie de mogelijkheid heeft om geld over te maken van het ene naar het andere account is het belangrijk om een strikte beveiliging the hebben. Een gat in de beveiliging zou illegale toegang tot een bankrekening kunnen verschaffen, dit zou het legen van deze bankrekening kunnen betekenen. Dit zorgt voor financiele problemen voor de eigenaar van de bankrekening en een beschadigde reputatie van de bank die aan de app verbonden zit.
 
 Data assets
 
@@ -55,9 +55,9 @@ CIA and Privacy
 | Bank admin account | Confidential | Guaranteed | Required  | Special personal |
 | Transacties        | Confidential | Guaranteed | Required  | Special personal |
 
-De login moet versleuteld zijn om voleddig veilig te zijn en daarom is die classified. Al de andere data assets moeten toegankelijk zijn voor de eigenaar en al dan niet voor de bank admin, maar niet voor anderen. Dit is waarom deze confidential zijn.
+De login moet versleuteld zijn om volledig veilig te zijn en daarom is die classified. Al de andere data assets moeten toegankelijk zijn voor de eigenaar en al dan niet voor de bank admin, maar niet voor anderen. Dit is waarom deze confidential zijn.
 
-De gebruikers account mogen niet veranderen zonder de juiste authorizatie maar dat is minder belangrijk dan de andere data assets. Dat is waarom deze niet op gegarandeerd staat.
+De gebruikers account mogen niet veranderen zonder de juiste autorizatie maar dat is minder belangrijk dan de andere data assets. Dat is waarom deze niet op gegarandeerd staat.
 
 De login zou zo veel mogelijk toegankelijk moeten zijn maar als het buiten bereik is dan niet het grootste probleem. De rest van het systeem moet altijd online zijn . Dit is omdat het minder erg is als je niet kunt inloggen, maar als je wel kunt inloggen maar dan niet bij je bankrekening kan zou dit voor paniek kunnen zorgen.
 
@@ -65,6 +65,6 @@ Het gebruikers account bevat normale persoonlijke data dat is waarom die op pers
 
 ## Ontwikkel tools and technieken
 
-Ik ga ontwikkelen in asp.net core met een frontend van angular. Hier heb ik voor gekozen omdat ik hier de meeste ervaring mee heb. Ik gebruik entity framework om mijn queries te vergemakkelijke en een extra beveiliging toe te voegen.
+Ik ga ontwikkelen in asp.net core met een frontend van angular. Hier heb ik voor gekozen omdat ik hier de meeste ervaring mee heb. Ik gebruik entity framework om mijn queries te vergemakkelijken en een extra beveiliging toe te voegen.
 
-Voor de multifactor authenticatie wil ik gebruikt gaan maken van een vinger print scanner om zo de vingerafdruk te verglijken.
+Voor de multifactor authenticatie wil ik gebruikt gaan maken van een vinger print scanner om zo de vingerafdruk te vergelijken.

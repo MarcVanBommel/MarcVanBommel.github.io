@@ -6,11 +6,11 @@ De bankieren app moet er voor zorgen dat de klanten van de bank makkelijker en v
 
 ### beschrijf de natuur van de data verwerkingen
 
-de persoonsdata worden door de klant gegeven aan de bank bij het aanvragen van een bankrekening, een deel van deze data wordt ook bij deze app gebruikt. De data wordt opgeslagen in een datatabase en alleen de gebruiker kan bij de persoonsdata. Verder worden de transacties bijgehouden om deze te kunnen terugdraaien en om fraude in de gaten te houden. Alleen de bankadmin en de eigennaren van de verstuurende en ontvangende bankrekenig kunnen bij de transactie.
+de persoonsgegevens worden door de klant gegeven aan de bank bij het aanvragen van een bankrekening, een deel van deze data wordt ook bij deze app gebruikt. De data wordt opgeslagen in een datatabase en alleen de gebruiker kan bij de persoonsgegevens. Verder worden de transacties bijgehouden om deze te kunnen terugdraaien en om fraude in de gaten te houden. Alleen de bankadmin en de eigenaren van de verstuurende en ontvangende bankrekening kunnen bij de transactie.
 
 ### beschrijf de scope van de data verwerkingen
 
-de persoonsdata is gewoone persoonsdata zoals naam en geboortedatum, maar alle gegevens die gaan over geld en rekeningen zijn een speciale categorie. Er worden geen extra persoonsgegevens verzamelt in deze app. Wel wordt iedere transactie opgeslagen en bewaart voor een termijn van 5 jaar.
+de persoonsgegevens is gewone persoonsgegevens zoals naam en geboortedatum, maar alle gegevens die gaan over geld en rekeningen zijn een speciale categorie. Er worden geen extra persoonsgegevens verzamelt in deze app. Wel wordt iedere transactie opgeslagen en bewaart voor een termijn van 5 jaar.
 
 ### beschrijf de context van de data verwerkingen
 
@@ -18,20 +18,19 @@ De relatie met de klant is die van een bank met een klant. de gebruiker kan vrag
 
 ### beschrijv het doel van de data verwerkingen.
 
-Het doel van deze data verwerkingen zijn het controleren van transacties zodat dit veilig blijft gebeuren. deze verwerkingen zorgen ervoor dat de gebruiker een veiliggevoel heeft bij het internetbankieren en dat gebruiker makkelijk hulp kan krijgen als er iets fout gaat.
+Het doel van deze data verwerkingen zijn het controleren van transacties zodat dit veilig blijft gebeuren. deze verwerkingen zorgen ervoor dat de gebruiker een veilig gevoel heeft bij het internetbankieren en dat gebruiker makkelijk hulp kan krijgen als er iets fout gaat.
 
 ## consultatie proces
 
 ### het betrekken van de stakeholders
 
-in de loop van een jaar moet er op bepaalde momenten gevraagt worden aan een deel van de gebruikers wat zij van de app vinden en hoe deze verbeterd kan worden. Ook wordt er regelmatig binnen de bank overlegd over verbeteringen aan de applicatie. verder zal deze app meerdere keren per jaar gepentest moeten worden door gespecialiseerde pentesters.
+in de loop van een jaar moet er op bepaalde momenten gevraagd worden aan een deel van de gebruikers wat zij van de app vinden en hoe deze verbeterd kan worden. Ook wordt er regelmatig binnen de bank overlegd over verbeteringen aan de applicatie. verder zal deze app meerdere keren per jaar gepentest moeten worden door gespecialiseerde pentesters.
 
 ## beoordeel de noodzakelijkheid en de proportionaliteit
 
 ### beschrijf de en de proportionele maatregelen
 
-wettenlijk gezien moet een bank de transacties van hun gebruikers een aantal jaar bewaren voor een gerechtelijk onderzoek van de politie of de belastingdienst. Er is geen andere mogelijkheid om hieraan te voldoen. De transactie data wordt beschermt doordat niemand die handmatig mag aanpassen of aanmaken.
-
+wettelijk gezien moet een bank de transacties van hun gebruikers een aantal jaar bewaren voor een gerechtelijk onderzoek van de politie of de belastingdienst. Er is geen andere mogelijkheid om hieraan te voldoen. De transactie data wordt beschermt doordat niemand die handmatig mag aanpassen of aanmaken.
 
 ## identificeer en beoordeel risico's
 

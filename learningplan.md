@@ -1,6 +1,6 @@
 # Plan van aanpak minor 2020
 
-Dit semester ga ik werken aan de minor cyber security met als richting security engineering. Hiervoor heb ik gekozen omdat er in mijn hoofd richting, software engeneering, te weinig aan dacht wordt gegeven naar mijn mening. Binnen software engineering wordt er wel wat aandacht aan de beveiliging gegeven maar te weinig en de docenten vinden het niet heel belangrijk. Zelf denk ik dat dit onderdeel van programeren juist steeds belangrijker word en dat er meer en meer vraag komt vanuit de samenleving voor veilige applicaties.
+Dit semester ga ik werken aan de minor cyber security met als richting security engineering. Hiervoor heb ik gekozen omdat er in mijn hoofd richting, software engineering, te weinig aan dacht wordt gegeven naar mijn mening. Binnen software engineering wordt er wel wat aandacht aan de beveiliging gegeven maar te weinig en de docenten vinden het niet heel belangrijk. Zelf denk ik dat dit onderdeel van programmeren juist steeds belangrijker word en dat er meer en meer vraag komt vanuit de samenleving voor veilige applicaties.
 
 ## Vaardigheden
 
@@ -8,7 +8,7 @@ In dit hoofdstuk worden de vaardigheden beschreven die ik dit semester wil leren
 
 ### Technische vaardigheden
 
-Dit semester wil ik dieper in gaan op security aspecten die we al gehad hebben bij software engineering. Daar worden deze onderwerpen vaak kort aan gestipt en is er geen tijd om er echt goed op in te gaan. Verder wil ik diep ingaan op cryptografie omdat dit een onderwerp is wat mij erg interessant lijkt en iets is waar ik al langer mee bezig wil gaan. Als laaste wil ik ook leren reverse engineren omdat ik denk dat je veel kan leren van de aanpak en fouten van anderen.
+Dit semester wil ik dieper in gaan op security aspecten die we al gehad hebben bij software engineering. Daar worden deze onderwerpen vaak kort aan gestipt en is er geen tijd om er echt goed op in te gaan. Verder wil ik diep ingaan op cryptografie omdat dit een onderwerp is wat mij erg interessant lijkt en iets is waar ik al langer mee bezig wil gaan. Als laatste wil ik ook leren reverse engineren omdat ik denk dat je veel kan leren van de aanpak en fouten van anderen.
 
 ### Procedurele vaardigheden
 
@@ -24,7 +24,7 @@ Dit semester moet ik werken aan het feedback vragen, dit moet ik vaker doen en d
 
 ## Wensen en doelen
 
-Dit semester wil ik de basis leren van cryptografie en daarbij ook kennis maken met cryptografische algoritmiek. 
+Dit semester wil ik de basis leren van cryptografie en daarbij ook kennis maken met cryptografische algoritmiek.
 
 ## Planning
 

@@ -4,7 +4,7 @@ Nadat iedereen zijn individuele onderzoeksaanpak had gemaakt hebben we een voor 
 
 ## risico analyse
 
-Hristo was begonnen aan een risico analyse, maar naar het idee van een aantal groepsleden en mij was dat niet een risico analyse zoals wij die tijdens onze specialistatie hebben geleerd. dit was een aanleiding om hier als groep over te overleggen waarbij we een oud template tevoorschijn hebben gehaald. naar aanleiding van dit overleg heb ik Hristo geholpen met het maken van een risico analyse hierbij heb ik voor geholpen en wat kleine puntjes toegevoegd.
+Hristo was begonnen aan een risico analyse, maar naar het idee van een aantal groepsleden en mij was dat niet een risico analyse zoals wij die tijdens onze specialisatie hebben geleerd. dit was een aanleiding om hier als groep over te overleggen waarbij we een oud template tevoorschijn hebben gehaald. naar aanleiding van dit overleg heb ik Hristo geholpen met het maken van een risico analyse hierbij heb ik voor geholpen en wat kleine puntjes toegevoegd.
 
 ## threat analyse
 
@@ -12,8 +12,6 @@ Om een duidelijke beeld te krijgen van de mogelijke aanvallers moet er een threa
 
 ## Misusecases
 
-Nadat ik alle threat analyses gemaakt had ben ik doorgegaan naar het maken van een misusecase diagram. hierbij heb ik de globale functies van IOT device beschreven, heb ik de beveiligings opties toegevoegd en de mogelijke aanvallers en hun technieken. Bij het misusecaseDiagram heb ik de vier gescheiden sectoren weer samengevoegd om het toch tot een project te behouden. Dit Diagram heb ik besproken met mijn groep waarbij vooral Rick met een aantal verbeteringen kwam.
+Nadat ik alle threat analyses gemaakt had ben ik doorgegaan naar het maken van een misusecase diagram. hierbij heb ik de globale functies van IOT device beschreven, heb ik de beveiligingsopties toegevoegd en de mogelijke aanvallers en hun technieken. Bij het misusecaseDiagram heb ik de vier gescheiden sectoren weer samengevoegd om het toch tot een project te behouden. Dit Diagram heb ik besproken met mijn groep waarbij vooral Rick met een aantal verbeteringen kwam.
 
 Omdat Rick met nuttige feedback kwam hebben we als groep besloten om de misusecases door mij en rick te laten maken. hierbij hebben we ieder de helft van de misusecases gemaakt en hebben we daarna die van de ander doorgelezen en verbeterd.
-
-<!-- Vervolgens hebben we als groep gewerkt aan de preliminary research, hierin hebben we het project beschreven en wat we gaan doen. Hierin hebben we verschillende aspecten in details uitgewerkt. Hierbij heb ik meegeholpen met het maken van de risico analyse. Verder heb ik de threat analyse gemaakt en heb ik samen met Rick de misuse cases gemaakt. -->
