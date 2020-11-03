@@ -76,6 +76,10 @@ h2{
 
 .dropdown:hover .dropdown-content {display: block;}
 
+.dropdown-content-level-2 a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content-level-2 {display: block;}
+
 /* footer */
 .social-icons {
   text-align: right
