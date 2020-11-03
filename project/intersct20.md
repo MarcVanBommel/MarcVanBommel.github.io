@@ -19,11 +19,11 @@ de eerste presentatie van de laatste dag van intersct20 ging over wat we nu moet
 
 de volgende presentatie ging over threat models en de fouten die hier vaak bij worden gemaakt. Ook wordt er hierbinnen gesproken over abstractie en de impact hiervan op threat models. Deze presentatie vond ik wel interessant maar een beetje abstract.
 
-![intersect-webinar](../images/intersect_zoom.PNG) {: }
+![intersect-webinar](../images/intersect_zoom.PNG){: }
 
 De volgende sessie die ik heb gevolgd is de parallel sessies waarbij ik WP7 heb gevolgd. In deze sessie gaven bedrijven en universiteiten/hogescholen aan wat hun plannen en aanpak is met betreffing tot IOT en security. Dit geeft een interessante kijk op de huidige stand van zaken maar heeft niet direct praktische waarden. ook vanuit Fontys werd er gepresenteerd.
 
-![intersect-webinar2](../images/intersect_casper.PNG) {: }
+![intersect-webinar2](../images/intersect_casper.PNG){: }
 
 De laatste presentatie die ik heb gevolgd is de sessie over IOT in bijvoorbeeld de zorg. Deze heb ik gevolgd omdat deze mogelijk toegevoegde waarde had voor het groepsproject. Helaas heb ik hier voor mijn gevoel minder nuttige informatie uitgehaald dan ik had gehoopt.
 
