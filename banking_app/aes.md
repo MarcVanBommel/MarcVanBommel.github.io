@@ -12,3 +12,7 @@ om extra duidelijkheid toe te voegen over AES encryptie ga ik handmatig een keer
 de basis tekst die ik ga gebruiken is: "de aes encryptie". In binary is dit `01100100 01100101 00100000 01100001 01100101 01110011 00100000 01100101 01101110 01100011 01110010 01111001 01110000 01110100 01101001 01100101`.
 
 de basis sleutel die ik ga gebruiken is: "een aes sleutel!". In binary is dit `01100101 01100101 01101110 00100000 01100001 01100101 01110011 00100000 01110011 01101100 01100101 01110101 01110100 01100101 01101100 00100001`.
+
+## implementatie
+
+Ik heb Aes ook daadwerkelijk gebruikt in mijn applicatie, [hier](./aes_implementation.md) kun je daar meer over vinden.
