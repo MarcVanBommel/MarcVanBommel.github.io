@@ -64,6 +64,7 @@ h2{
 
 .dropdown-content-level-2 {
   display: none;
+  top: 0;
   position: absolute;
   right: -150px;
   background-color: #f1f1f1;
