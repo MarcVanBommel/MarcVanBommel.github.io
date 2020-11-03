@@ -4,7 +4,7 @@ To Test The applications created by the security engineer There are 2 red team v
 
 # event 1
 
-Het eerste red vs blue event vind plaats op 26-10-2020, hier hebben de redteamers een account gekregen maar verder proberen ze zoveel mogelijk black box te werken. Een uitgebreid rapport is (hier)[./r_b_event1.md] te vinden.
+Het eerste red vs blue event vind plaats op 26-10-2020, hier hebben de redteamers een account gekregen maar verder proberen ze zoveel mogelijk black box te werken. Een uitgebreid rapport is [hier](./r_b_event1.md) te vinden.
 
 # event 2
 Bij de tweede versie van het event hebben de redteamers van tevoren de code geanalyseerd om zeker te zijn dat ze alles vinden.
