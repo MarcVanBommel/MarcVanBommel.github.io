@@ -78,7 +78,7 @@ h2{
 
 .dropdown-content-level-2 a:hover {background-color: #ddd;}
 
-.dropdown:hover .dropdown-content-level-2 {display: block;}
+.dropdown-content:hover .dropdown-content-level-2 {display: block;}
 
 /* footer */
 .social-icons {
