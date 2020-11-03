@@ -75,7 +75,7 @@ h2{
 .dropdown-content a:hover {background-color: #ddd;}
 
 .dropdown:hover .dropdown-content {display: block;}
-.dropdown-content a:hover > ul {display: block;}
+.dropdown-content li:hover > ul {display: block;}
 
 
 /* footer */
