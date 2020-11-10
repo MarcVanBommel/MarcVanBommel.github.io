@@ -39,12 +39,12 @@ Dit semester wil ik de basis leren van cryptografie en daarbij ook kennis maken 
 | 7    | security logging toepassen in mijn app(M) & static code analysis en overleg met medestudent(M) | redteam blueteam dag voorbereiden(M)                |
 | 8    | bug fixes(M)                              | redteam blueteam dag voorbereiden(M)                   |
 | 9    | source code review van een tool of app(M)           |                                                        |
-| 10   | secure configuration review(M)  |  R&D fuzzing tests maken(M)                 |
-| 11   | fuzzing test maken voor bufferoverflow and DOS(M) |  fingerprint scan als 2-factor(S)                     | reverse engineering          |
-| 12   | google auth(S) toepassen als two factor     |                                                        |
-| 13   | chaptcha toepassen op mijn app(S)  | AES(C)  or RSA toepassen op mijn app(C)         |
-| 14   | database security onderzoeken en toepassen(S) | AES of RSA checken voor side channel attacks(C) & redteam blueteam dag voorbereiden(M) |
-| 15   |                                        | redteam blueteam dag voorbereiden(M)                   |
+| 10   | feedback verwerken  |                  |
+| 11   | secure configuration review(M) | R&D fuzzing tests maken(M)   |        |
+| 12   | fuzzing test maken voor bufferoverflow and DOS(M) | fingerprint scan als 2-factor(S)         |
+| 13   | google auth(S) toepassen als two factor | AES(C)  or RSA toepassen op mijn app(C)         |
+| 14   | chaptcha toepassen op mijn app(S) | AES of RSA checken voor side channel attacks(C) & redteam blueteam dag voorbereiden(M) |
+| 15   |  database security onderzoeken en toepassen(S) | redteam blueteam dag voorbereiden(M)        | reverse engineering   |
 | 16   |                                        |                                                        |
 
 een volledige beschrijving van de exercises en challenges kan [hier](https://fhict.instructure.com/courses/10171/pages/setting-up-a-learning-plan-and-portfolio?module_item_id=530526) gevonden worden.
