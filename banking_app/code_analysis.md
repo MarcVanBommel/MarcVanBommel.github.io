@@ -16,6 +16,10 @@ in de afbeelding hier boven staat de eerste sonarqube analyse die ik gedaan heb.
 
 Sonarqube vind het gebruik van argumenten bij de Main methode het grootste risico. Net zoals alle andere input moeten ze eerste gevalideerd en opgeschoond worden voordat ze gebruikt mogen worden als extra maatregel. ook kunnen gebruikers de lijst van processen van een systeem afhalen wat de argumenten zichtbaar maakt, dit betekend dat deze argumenten geen gevoelige data moeten bezitten.
 
+Dit is een standaard functie die altijd in een asp.net core project zit. Ik heb niks aangepast aan de variabele en deze variabele worden alleen gebruikt door de CreateWebHostBuilder gebruikt. Dit is ook een standaard ASP.net Core methode. Ik weet niet exact wat deze methode doet of wat voor input er exact verwacht wordt. Dit betekend dat ik hier zelf niet de input ga filteren omdat ik verwacht dat microsoft ervoor zorgt dat deze methode veilig is.
+
+Als ik op het internet ga zoeken naar comand injectie op de main methode wordt er gezegd dat je een nieuwe nuget package nodig hebt. Aangezien ik deze niet heb geinstalleerd is dit ook geen reden om dit als risico te zien.
+
 ![DoS](../images/DoS.PNG){: }
 
 Volgens Sonarqube kunnen regular expressions zorgen voor een dos vulnerability. Omdat ik meerdere regular expressions gebruik gaat hij hier meerdere keren op af. het vergelijken van regular expressions tegen input strings kan heel cpu intensief zijn. Sommige regular expressions kunnen er erg lang over doen terwijl er equivalenten expressions zijn die veel minder intensief zijn. Dit betekent dat het mogelijk kan zijn om een ReDoS aanval uit te voeren.
@@ -30,8 +34,12 @@ Hier wordt een melding gegeven omdat er een developerExeceptionpage word gebruik
 
 ![log injectie](../images/Log_Injection.PNG){: }
 
-hier wordt een melding gegeven omdat de logger wordt aangemaakt in de startup. Loggers kunnen een doelwit zijn voor hackers omdat er gevoelige informatie in de logs kan zitten.
+hier wordt een melding gegeven omdat de logger wordt aangemaakt in de startup. Loggers kunnen een doelwit zijn voor hackers omdat er gevoelige informatie in de logs kan zitten. Hier gaat het voornamelijk om hoe de logs zijn ingesteld, wordt er niet te veel gelogd, kunnen de gebruikers bij de logs en zit er een limiet aan de groei van de logs. Ook het fout loggen van informatie kan een probleem vormen. als er uit de log niet gehaald kan worden wat er gebeurt is dit een groot probleem.
+
+Mijn logs worden opgeslagen op een server en laten belangrijke gegevens zoals tijd en de hostname zien. Verder log ik geen persoonsgegevens en laat de logger duidelijk alle waarschuwingen, informatie en error messages zien. Ook zijn er duidelijke grafieken om gevaren nog eerder op te sporen.
 
 ![Jwt permissies](../images/Jwt_Permission.PNG){: }
 
-De jwt permissies worden in dit stuk code ingesteld sonarqube geeft aan dat dit een risico kan zijn.
+De jwt permissies worden in dit stuk code ingesteld sonarqube geeft aan dat dit een risico kan zijn. Het gaat Sonarqube hier vooral om het veilig opstellen van de permissies en niet zozeer om het feit dat de jwt tokens hier worden ingesteld. Het instellen is veilig maar de vraag is zijn de instellingen veilig. Hebben gebruikers alleen de benodigde rechten en kunnen mensen hun privileges escaleren?
+
+De permissies zijn goed ingesteld en de tokens worden gesigneerd dit betekend dat het niet mogelijk zou moeten zijn om privilege escalatie uit te voeren. Een toegevoegde stap zou kunnen zijn dat een systeem admin privileges weg kan halen van gebruikers om hacker minder lang toegang te geven mochten ze die toch verkregen hebben.
