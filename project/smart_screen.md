@@ -14,4 +14,4 @@ Nadat we dit getest hadden ben ik verder gaan zoeken naar meer mogelijkheden met
 
 het smart screen heeft meerdere poorten open staan voor een  Portable SDK for UPnP devices 1.6.19. een eerdere versie van deze SDK had buffer overflow vulnerabilities, maar deze zijn gepatched in 1.6.18. Dat gezegd hebbende is dit wel een verouderde versie van de SDK, dus een update zou aangeraden zijn. Uit naderonderzoek blijkt dat er meerdere kwetsbaarheden zijn voor versies na 1.6.19, voorbeelden hiervan zijn CallStranger en CVE-2016-6255. Ik heb CallStranger proberen uit te voeren op het bord maar het is tot nu toe nog niet gelukt om het script upnp poorten te laten vinden.
 
-![callstranger](../images/callstranger.PNG){; }
+![callstranger](../images/callstranger.PNG){: }

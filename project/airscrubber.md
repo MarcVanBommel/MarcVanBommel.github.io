@@ -14,7 +14,7 @@ Ik ben vervolgens opzoek gegaan naar de juiste methode in de frontend en of de f
 
 Nadat de airscrubber geanalyseerd is door de pentesters op mogelijke kwetsbaarheden is het tijd om een ontwerp te maken hierbij hebben we gebruikt gemaakt van misuse cases. Deze zijn gemaakt door Hristo en mijzelf waarna ze gecontroleerd zijn door 2 andere groepsleden. De feedback van deze groepsleden heb ik vervolgens verwerkt. Uit deze misusecases zijn een aantal te nemen maatregelen naarvoren gekomen. van de kwetsbarheden in combinatie met de maatregelen heb ik Jira tickets gemaakt.
 
-![jira tickets](../images/airscrubber_measures_jira.PNG){; }
+![jira tickets](../images/airscrubber_measures_jira.PNG){: }
 
 ## implementatie
 
