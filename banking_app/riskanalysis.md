@@ -1,7 +1,8 @@
 # Risico analyse
-om een inzicht te krijgen in welke groepen een risico zijn en hoe streng de beveiligingen tegen deze groepen moet zijn wordt er eerst een risico analyse gemaakt.
 
-| bedreiging                             | impact  omschrijvning            | impact | waarschijnlijkheid | security control level | controls |
+om een inzicht te krijgen in welke groepen een risico zijn en hoe streng de beveiligingen tegen deze groepen moet zijn wordt er eerst een risico analyse gemaakt. Hierbij wordt er gekeken naar de bedreiging, de impact, de waarschijnlijkheid, het beveiligingslevel en een aantal beveiligingsmaatregelen. Het beveiligingslevel wordt hierbij bepaald aan de hand van de impact en waarschijnlijkheid. Onder de tabel staat een verdere uitleg over iedere bedrijging.
+
+| bedreiging                             | impact  omschrijving            | impact | waarschijnlijkheid | security control level | controls |
 | -------------------------------------- | -------------------------------- | ------ | ------------------ | ---------------------- | -------- |
 | DDoS                                   | downtime, reputatie schade       | gemiddeld | gemiddeld | gematigd level van beveiliging | firewall regels tegen DoS en backup servers |
 | Scriptkiddes, opportunisten            | schade voor klant, incident reparatie kosten | gemiddeld | Hoog | hoog level van beveiliging | input filtering, wachtwoord eisen |

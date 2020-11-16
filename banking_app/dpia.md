@@ -1,5 +1,7 @@
 # Privacy inpact assesment
 
+Binnen een privacy inpact assesment wordt er gekeken of er privacy gevoelige informatie in de applicatie gebruikt word en hoe deze informatie wordt verwerkt. Er moet ook worden gekeken of de data verwerking noodzakelijk zijn en of er niet te veel data wordt verzameld. Verder moet er gekeken worden hoe gevoelig deze data is en wat de beveiligingsmogelijkheden zijn.
+
 ## identificeer of een DPIA nodig is
 
 De bankieren app moet er voor zorgen dat de klanten van de bank makkelijker en veiliger bij hun rekening kunnen en geld kunnen over maken. Verder moet deze app ervoor zorgen dat de bank medewerkers makkelijker fraude op kunnen merken in online transacties. De bankieren en gebruiker gegevens over de bank rekeningen van gebruikers maar ook over persoonsgegevens van de mensen die de app gebruiken.
@@ -18,7 +20,7 @@ de persoonsgegevens is gewone persoonsgegevens zoals naam en geboortedatum, maar
 
 De relatie met de klant is die van een bank met een klant. de gebruiker kan vragen om zijn persoonsgegevens aan te passen en te verwijderen als de gebruiker zijn rekening opheft. De klant kan binnen alle redelijkheid verwachten dat zijn data zo opgeslagen en verwerkt wordt. Dit is geen nieuw idee of project, er zijn een kleine groep mensen die bezorgt zijn over de veiligheid maar de meerderheid van de mensen maakt zich geen zorgen over internetbankieren.
 
-### beschrijv het doel van de data verwerkingen.
+### beschrijf het doel van de data verwerkingen
 
 Het doel van deze data verwerkingen zijn het controleren van transacties zodat dit veilig blijft gebeuren. deze verwerkingen zorgen ervoor dat de gebruiker een veilig gevoel heeft bij het internetbankieren en dat gebruiker makkelijk hulp kan krijgen als er iets fout gaat.
 
@@ -78,3 +80,7 @@ Als een admin de transacties kan controlleren kan hij opsporen of mensen grote s
 Om het hacken van accounts te voorkomen zijn er meerdere mogelijkheden. Om bruteforce attacks te voorkomen kunnen er timeouts, capcha's en wachtwoord eisen worden gebruikt. deze verkleinen allemaal het risico op het hacken van wachtwoorden maar voorkomen het niet. Al deze maatregelen zijn acceptable.
 
 om het hacken van accounts door middel van phishing tegen te gaan kan Two-factor authenticatie worden gebruikt. Dit voorkomt het inloggen van hackers ookal hebben ze het wachtwoord en de gebruikersnaam. Verder blokkeert dit ook bruteforce attacks. Deze maatregel is waarschijnlijk de sterkste van alle genoemde matregelen tegen account hacking. daarom wordt ook deze regel geaccepteerd.
+
+## conclusie
+
+Er wordt gebruik gemaakt van gevoelige persoonsgegevens, die deels wettelijk gezien opgeslagen worden. Deze gegevens moeten versleuteld worden opgeslagen om ze te beveiligen. Verder moeten er overige maatregelen worden getroffen om mensen en hun gegevens te beschermen tegen mogelijke kwaadwillers.
