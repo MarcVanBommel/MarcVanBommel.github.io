@@ -42,7 +42,7 @@ Dit semester wil ik de basis leren van cryptografie en daarbij ook kennis maken 
 | 10   | feedback verwerken  | identity two-factor authenticatie(S)                 |
 | 11   | secure configuration review(M) | R&D fuzzing tests maken(M), redteam blueteam beta week voorbereiden   |   reverse engineering uitgesteld     |
 | 12   | fuzzing test maken voor bufferoverflow and DOS(M) | fingerprint scan als 2-factor(S)         |
-| 13   | google auth(S) toepassen als two factor | AES(C)  or RSA toepassen op mijn app(C)         |
+| 13   | two-factor prototype toepassen | docker security        |
 | 14   | chaptcha toepassen op mijn app(S) | AES of RSA checken voor side channel attacks(C) & redteam blueteam dag voorbereiden(M) |
 | 15   |  database security onderzoeken en toepassen(S) | redteam blueteam dag voorbereiden(M)        | reverse engineering   |
 | 16   |                                        |                                                        |
