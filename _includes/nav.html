@@ -1,7 +1,16 @@
 <div class ="nav">
   <a class="navlink" href="{{site.baseurl}}/">Home</a>
   <a class="navlink" href="{{site.baseurl}}/aboutme">over mij</a>
-  <a class="navlink" href="{{site.baseurl}}/learningplan">leer planning</a>
+  <a><div class="dropdown">
+    <a  class="dropbtn navlink" href="{{site.baseurl}}/planning/learningplan">leer planning</a>
+    <ul class="dropdown-content">
+      <li><a href="{{site.baseurl}}/planning/learningplan">leer planning</a></li>
+      <li><a href="{{site.baseurl}}/planning/vacatures">vacatures</a></li>
+      <li><a href="{{site.baseurl}}/planning/masters">master</a></li>
+      <li><a href="{{site.baseurl}}/planning/retrospective">retrospective</a></li>
+    </ul>
+  </div></a>
+  
   <a><div class="dropdown">
     <a  class="dropbtn navlink" href="{{site.baseurl}}/project/intersect">R&D project</a>
     <ul class="dropdown-content">
@@ -14,12 +23,11 @@
       <li><a href="{{site.baseurl}}/project/smart_screen">smart screen</a></li>
       <li><a href="{{site.baseurl}}/project/sprint_retrospective">sprint retrospective</a></li>   
     </ul>
-
   </div></a>
   <a><div class="dropdown">
     <a class="dropbtn navlink" href="{{site.baseurl}}/banking_app/app">bankieren app</a>
     <ul class="dropdown-content">
-      <li><a href="{{site.baseurl}}/banking_app/vacatures">vacatures</a></li>
+      
       <li><a href="{{site.baseurl}}/banking_app/design">ontwerp</a>
         <ul class="dropdown-content-level-2">
           <li><a href="{{site.baseurl}}/banking_app/riskanalysis">risico analyse</a></li>
