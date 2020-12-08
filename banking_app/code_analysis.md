@@ -43,3 +43,7 @@ Mijn logs worden opgeslagen op een server en laten belangrijke gegevens zoals ti
 De jwt permissies worden in dit stuk code ingesteld sonarqube geeft aan dat dit een risico kan zijn. Het gaat Sonarqube hier vooral om het veilig opstellen van de permissies en niet zozeer om het feit dat de jwt tokens hier worden ingesteld. Het instellen is veilig maar de vraag is zijn de instellingen veilig. Hebben gebruikers alleen de benodigde rechten en kunnen mensen hun privileges escaleren?
 
 De permissies zijn goed ingesteld en de tokens worden gesigneerd dit betekend dat het niet mogelijk zou moeten zijn om privilege escalatie uit te voeren. Een toegevoegde stap zou kunnen zijn dat een systeem admin privileges weg kan halen van gebruikers om hacker minder lang toegang te geven mochten ze die toch verkregen hebben.
+
+## kennis deling
+
+Toen Casper aan het uitleggen was over code analyse heb ik sonarqube laten zien, hierbij heb ik verteld dat ik sonarqube run via mijn pipeline zodat mijn code automatisch wordt getest. Verder heb ik wat uitgeweid over de functies van sonarqube zoals de code analyse en de security analyse.
