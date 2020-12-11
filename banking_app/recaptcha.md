@@ -10,7 +10,7 @@ Versie 2 is de meest bekende versie waarbij de gebruiker zelf input moet geven a
 
 ## implementatie
 
-eerst heb ik een npm library toegevoegd aan mijn Angular frontend. En heb ik een nieuwe site gemaakt voor google recaptcha zodat ik een sitekey(publickey) en secretkey(privatekey) heb gekregen. Door een provider van deze library toe te voegen was het maken van een token met een call gemaakt.
+eerst heb ik een npm library toegevoegd aan mijn Angular frontend. En heb ik een nieuwe site gemaakt voor google recaptcha zodat ik een sitekey(publickey) en secretkey(privatekey) heb gekregen. Door een provider van deze library toe te voegen was het maken van een token met een call gemaakt. Een bijkomend voordeel van Recaptcha is het feit dat er een admin page bij zit waarbij het aantal requests en de betrouwbaarheid in grafieken worden uitgezet.
 
 ![recaptcha provider](../images/recaptcha-provider.PNG){:}
 
