@@ -16,8 +16,12 @@ het smart screen heeft meerdere poorten open staan voor een  Portable SDK for UP
 
 ![callstranger](../images/callstranger.PNG){: }
 
-## het Rapport
+## Het Rapport
 
 Samen met rick heb ik het pentest raport over dit smart screen geschreven. Hierbij hebben we allebei appart onderdelen geschreven en heb ik daarna heb ik het geheel door gelezen. Hierbij heb ik een aantal stukken aangepast om de wij vormen er uit te halen. Vervolgens heb ik aan de rest van de groep aangegeven dat dit document nagekeken mag worden.
 
 Daarnaast heb ik met merlijn de pentest van het andere scherm door gesproken om te kijken of hij nog iets gemist had. Aan de hand hiervan hebben we nog een aantal extra nmap scans uit gevoerd die helaas niks extra's hebben opgeleverd.
+
+## Het tweede scherm
+
+Naast het scherm dat ik met rick getest heb hebben we nog een tweede scherm gekregen om ook te testen. Dit scherm heeft merlijn getest. Toen merlijn dacht dat hij alles getest had wat hij kon testen heb ik nog een dag erbij gezetten om met Merlijn alle stappen door te spreken en mogelijk nog andere invals hoeken te noemen. hierbij heb ik nog aan geraden om voor de zekerheid een udp scan te doen. Hier kwamen helaas geen open porten uit.
