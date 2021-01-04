@@ -73,7 +73,7 @@ Een deel van de bedreigingen zijn direct terug tevinden in dit misusecase diagra
 | Preventie garantie       | b1. De misactor kan wel de connecties zien maar de data is versleuteld en dus niet te gebruiken |
 | Stakeholders and threats | De stakeholders zijn iedereen die de applicatie gebruikt op het netwerk met de MitM, omdat de server niet kan zien of de data tijdens het verzenden is aangepast kan dit ervoor zorgen dat er geld naar een verkeerd account gestuurd wordt. |
 | Scope                    | Alle data die wordt verzonden tussen een client en de server  |
-| Ondernomen Stappen       | |
+| Ondernomen Stappen       | ssl certificaat en Data encryptie met AES|
 
 | naam                     | bruteforce |
 | ------------------------ | ------------ |
@@ -86,7 +86,7 @@ Een deel van de bedreigingen zijn direct terug tevinden in dit misusecase diagra
 | Preventie garantie       | b1. De misactor kan de aanval wel uitvoeren maar die duurt veel langer b2. bruteforce programma's kunnen niet omgaan met capcha's hierdoor worden bruteforce en library attack's voorkomen. |
 | Stakeholders and threats | De stakeholders zijn iedereen die de applicatie gebruikt, omdat er gezocht kan worden naar een combinatie van gebruikersnaam en wachtwoord. een klant kan veel geld verliezen als een hacker inbreekt in zijn of haar account. Verder zorgt dit voor een verlies van vertrouwen |
 | Scope                    | Alle accounts.  |
-| Ondernomen Stappen       | |
+| Ondernomen Stappen       | recaptcha, timeouts, two factor authenticatie|
 
 | naam                     | csrf |
 | ------------------------ | ------------ |
@@ -112,7 +112,7 @@ Een deel van de bedreigingen zijn direct terug tevinden in dit misusecase diagra
 | Preventie garantie       | b1. een zero day wordt eerder opgemerkt en kan dus eerder gepatched worden |
 | Stakeholders and threats | De stakeholders zijn iedereen die de applicatie gebruikt, omdat de hele applicatie een zero day kan bevatten. een klant kan veel geld verliezen als een hacker inbreekt in zijn of haar account. Verder zorgt dit voor een verlies van vertrouwen |
 | Scope                    | de gehele applicatie  |
-| Ondernomen Stappen       | |
+| Ondernomen Stappen       | security logging |
 
 | naam                     | sniffing |
 | ------------------------ | ------------ |
@@ -125,4 +125,4 @@ Een deel van de bedreigingen zijn direct terug tevinden in dit misusecase diagra
 | Preventie garantie       | b1. De misactor kan het verkeer nog zien maar de data is versleuteld dus kan de misuser er niks mee |
 | Stakeholders and threats | De stakeholders zijn iedereen die de applicatie gebruikt, omdat hun data wordt verstuurd door de app. een klant kan veel geld verliezen als een hacker zijn wachtwoord afleest. Verder zorgt dit voor een verlies van vertrouwen |
 | Scope                    | de gehele applicatie  |
-| Ondernomen Stappen       | |
+| Ondernomen Stappen       | ssl certificaat en Data encryptie met AES |
