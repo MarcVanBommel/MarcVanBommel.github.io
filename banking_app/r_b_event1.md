@@ -20,6 +20,6 @@ Het gebruik van http was bekend bij mij dit stond nog op mijn planning om te fix
 
 Bij het maken van de overboek functie heb ik niet genoeg nagedacht over wat iemand met slechte bedoelingen zou proberen. Dit heeft Thomas duidelijk aan het ligt gebracht. Door de implementatie van AES zat er nog een bug in waardoor de bankrekening niet goed upgedate werd. Dit heb ik Meteen samen aangepakt. Een gebruiker heeft nu alleen een placeholder voor zijn eigen rekening, en als deze omzeilt wordt wordt de input alsnog niet uitgelezen. Daarnaast zit er ook nog een check in de backend of de rekening wel echt bij de gebruiker hoort.
 
-## console log
+### console log
 
 Ik had nog een console log in mijn frontend staan die ik was vergeten weg te halen, dit heb ik meteen gedaan. Wel worden de error meldingen nog met teveel details in de frontend console zichtbaar. Hier ben ik nog naar een oplossing voor aan het zoeken.

@@ -1,6 +1,6 @@
 # Red team vs Blue Team day
 
-To Test The applications created by the security engineer There are 2 red team vs blue team events. During this event the red team students pentest the systems to find any vulnerabilities and the Blue team students try to monitor the attacks to test their siem systems. 
+To Test The applications created by the security engineer There are 2 red team vs blue team events. During this event the red team students pentest the systems to find any vulnerabilities and the Blue team students try to monitor the attacks to test their siem systems.
 
 ## event 1
 
@@ -8,4 +8,4 @@ Het eerste red vs blue event vind plaats op 26-10-2020, hier hebben de redteamer
 
 ## event 2
 
-Bij de tweede versie van het event hebben de redteamers van tevoren de code geanalyseerd om zeker te zijn dat ze alles vinden.
+Het tweede red vs blue event vind plaats op 14-12-2020, hier hebben de redteamers accounts gekregen maar werken ze verder zoveel mogelijk black box. Het rapport is[hier](./r_b_event2.md) te vinden.
