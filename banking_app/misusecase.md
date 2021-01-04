@@ -8,8 +8,11 @@ Om een goed idee te krijgen van het mogelijke misbruik van de applicatie heb ik 
 
 ![misusecase diagram](./images/../../images/misusecase_diagram.jpg ){: }
 
+Een deel van de bedreigingen zijn direct terug tevinden in dit misusecase diagram. Zo zijn de DDOS aanval en Scriptkiddies direct terug te vinden. Niet alle bedreigingen zijn direct ook aanvallen, de misuse cases zijn gemaakt op de aanvallen uit het misusecase diagram. Bij iedere misusecase is er een rij toegevoegd die aangeeft onder welke bedreiging de misusecase valt.
+
 | naam                     | SQL injectie |
 | ------------------------ | ------------ |
+| bedreiging               | Data breach persoonsgegevens, stelen vertrouwelijke bedrijfsdata |
 | Samenvatting             | Door een gebrek aan filtering kan een gebruiker SQL invoeren en wordt deze uitgevoerd. |
 | Beschrijving             | 1. De misactor voert SQL-code in in een textbox 2. De SQL-Server voert deze code uit 3. De misactor krijgt de resultaten terug 4. De misactor kan de hele database uitlezen en zelfs aanpassen|
 | Beveiligen               | 1. scheiding van data 2. rollen 3. filteren van gebruikersinput |
@@ -22,6 +25,7 @@ Om een goed idee te krijgen van het mogelijke misbruik van de applicatie heb ik 
 
 | naam                     | XXS |
 | ------------------------ | ------------ |
+| bedreiging               | Malware Infectie, data breach persoonsgegevens, stelen vertrouwelijke bedrijfsdata |
 | Samenvatting             | Door een gebrek aan filtering kan een gebruiker SQL invoeren en wordt deze uitgevoerd. |
 | Beschrijving             | 1. De misactor voert JS-code in in een textbox 2. De Client voert deze code uit bij een andere gebruiekr 3. De misactor kan mogelijk cookies stelen de pagina aanpassen en de gebruiker volgen op de pagina |
 | Beveiligen               | 1. filteren van gebruikersinput |
@@ -34,6 +38,7 @@ Om een goed idee te krijgen van het mogelijke misbruik van de applicatie heb ik 
 
 | naam                     | Account overnamen |
 | ------------------------ | ------------ |
+| bedreiging               | Data breach persoonsgegevens, phishing |
 | Samenvatting             | Door het misbruiken van een exploit kan de misactor toegang krijgen tot een account van een andere gebruiker. |
 | Beschrijving             | 1. De misactor gebruikt een exploit om login-token of een gebruikersnaam en wachtwoord te verkrijgen 2. De misactor gebruikt deze gegevens om in te loggen |
 | Beveiligen               | 1. 2 factor authentication bij het inloggen 2. alle gebruikers alleen de noodzakelijke rechten geven. 3. tokens een beperkte levensduur geven. |
@@ -46,6 +51,7 @@ Om een goed idee te krijgen van het mogelijke misbruik van de applicatie heb ik 
 
 | naam                     | (D)DoS |
 | ------------------------ | ------------ |
+| bedreiging               | DDOS |
 | Samenvatting             | Door een groot aantal request te sturen naar de applicatie kan de misactor de applicatie plat leggen. |
 | Beschrijving             | 1. De misactor heeft een bot-net of heeft een DoS-fout in de applicatie gevonden 2. De misactor activeert de aanval |
 | Beveiligen               | 1. de firewall instellen om dos berichten te blokkeren 2. een DDoS-blocker gebruiken |
@@ -58,6 +64,7 @@ Om een goed idee te krijgen van het mogelijke misbruik van de applicatie heb ik 
 
 | naam                     | MitM |
 | ------------------------ | ------------ |
+| bedreiging               | Data breach persoonsgegevens, stelen vertrouwelijke bedrijfsdata |
 | Samenvatting             | Door een gebrek aan SSl kan een gebruiker de data die wordt verstuurd van en naar de server lezen. |
 | Beschrijving             | 1. De misactor voert een MitM aanval uit op een netwerk waarop de app gebruikt wordt 2. Een gebruiker gebruikt de app  3. De misactor krijgt alle verstuurde data te zien en kan deze aanpassen |
 | Beveiligen               | 1. het afdwingen van SSL |
@@ -70,6 +77,7 @@ Om een goed idee te krijgen van het mogelijke misbruik van de applicatie heb ik 
 
 | naam                     | bruteforce |
 | ------------------------ | ------------ |
+| bedreiging               | Data breach persoonsgegevens, stelen vertrouwelijke bedrijfsdata |
 | Samenvatting             | Door een gebrek aan timeouts en capcha's kan een gebruiker oneindig vaak proberen zijn wachtwoord te raden |
 | Beschrijving             | 1. De misactor laat een programma proberen om in te loggen door middel van een bruteforce of library attack 2. de server reageert telkens of het inloggen gelukt is 3. De misactor krijgt de resultaten terug uit het programma 4. De misactor kan nu inloggen met een gevonden combinatie van gebruikersnaam en wachtwoord|
 | Beveiligen               | 1. timeouts na x keer inloggen 2. capcha's |
@@ -82,6 +90,7 @@ Om een goed idee te krijgen van het mogelijke misbruik van de applicatie heb ik 
 
 | naam                     | csrf |
 | ------------------------ | ------------ |
+| bedreiging               | Data breach persoonsgegevens, stelen vertrouwelijke bedrijfsdata |
 | Samenvatting             | Door een gebrek aan input filtering kan een misactor request sturen die uit een vertrouwde user lijken te komen |
 | Beschrijving             | 1. de misactor steel een token van een gebruiker met de admin rol 2. de misactor stuurt een request naar de website met het gestolen token. De server voert de request uit omdat hij de token vertrouwd. 4.|
 | Beveiligen               | 1. korte levensduur tokens 2. random tokens |
@@ -94,6 +103,7 @@ Om een goed idee te krijgen van het mogelijke misbruik van de applicatie heb ik 
 
 | naam                     | zero day |
 | ------------------------ | ------------ |
+| bedreiging               | Data breach persoonsgegevens, stelen vertrouwelijke bedrijfsdata, malware infectie |
 | Samenvatting             | Doordat er een nieuwe aanval is gevonden kan een misactor misbruik maken van de applicatie |
 | Beschrijving             | 1. De misactor voert de zero day aanval uit. |
 | Beveiligen               | 1. logging |
@@ -106,6 +116,7 @@ Om een goed idee te krijgen van het mogelijke misbruik van de applicatie heb ik 
 
 | naam                     | sniffing |
 | ------------------------ | ------------ |
+| bedreiging               | Data breach persoonsgegevens, stelen vertrouwelijke bedrijfsdata |
 | Samenvatting             | Door een gebrek aan encryptie van de communicatie tussen de client en server kan een misactor het verkeer lezen |
 | Beschrijving             | 1. De misactor volgt al het netwerk verkeer van de client of server 2. de server stuurt onversleutelde data naar de client 3. De misactor krijgt de data te zien |
 | Beveiligen               | 1. SSl encryptie afdwingen |
