@@ -6,13 +6,6 @@ AES is een symmetrisch encryptie algoritme, dit betekend dat er maar een sleutel
 
 AES bestaat uit verschillende stappen. Eerst wordt de key uitgebreid volgens een key schedule. daarna worden de eerste key toegevoegd aan de basis tekst. Dan word er 9, 11 of 13 keer de volgende 4 stappen gedaan. eerst wordt iedere byte gesubstitueerd door een ander byte uit een vooropgestelde tabel. dan wordt er worden de laatste 3 rijen opgeschoven. vervolgens worden kolommen door middel van een Galois field vermenigvuldigd. dan word er een nieuwe key toegevoegd aan de tekst. als laatste stap worden de bytes nog een keer gesubstitueerd, worden de rijen nog een keer opgeschoven en word de laatste key toegevoegd. nadat al deze stappen zijn uitgevoerd heb je de versleutelde tekst.
 
-## voorbeeld
-om extra duidelijkheid toe te voegen over AES encryptie ga ik handmatig een keer door de stappen heen lopen. dit betekend eerst het bereken van de sleutel uitbreiding, dan het samenvoegen, de substitutie, de rij verschuiving, de kolommen mixen en als laatste nog een extra key toevoegen.
-
-de basis tekst die ik ga gebruiken is: "de aes encryptie". In binary is dit `01100100 01100101 00100000 01100001 01100101 01110011 00100000 01100101 01101110 01100011 01110010 01111001 01110000 01110100 01101001 01100101`.
-
-de basis sleutel die ik ga gebruiken is: "een aes sleutel!". In binary is dit `01100101 01100101 01101110 00100000 01100001 01100101 01110011 00100000 01110011 01101100 01100101 01110101 01110100 01100101 01101100 00100001`.
-
 ## implementatie
 
 Ik heb Aes ook daadwerkelijk gebruikt in mijn applicatie, [hier](./aes_implementation.md) kun je daar meer over vinden.

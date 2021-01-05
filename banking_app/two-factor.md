@@ -6,7 +6,7 @@ Om een extra beveiligingslaag toe te voegen aan een applicatie is het handig om 
 
 Mijn originele idee was het uitlezen van de vingerafdruk scanner die in mijn laptop zit. Uit nader onderzoek blijkt dit vrijwel onmogelijk om te doen. Het is niet volledig duidelijk welke versie het is en wat de firmware hiervan doet. Alle bronnen op internet over mijn specifieke vingerafdruk scanner gaan over problemen oplossen. Aangezien ik geen externe vingerafdruk scanner heb laat ik dit idee even rusten.
 
-## microsoft identity
+## Microsoft identity
 
 De backend van mijn applicatie is geschreven in Asp.net core. Hiervoor heeft microsoft het identity framework uitgebracht, dit framework maakt het makkelijker om authenticatie toe te passen. Dit lijkt de ideale oplossing voor mijn project en omdat het van microsoft komt is het ook een betrouwbare library. Het probleem is alleen dat identity framework alleen werkt met razor pages terwijl mijn frontend gemaakt is in angular.
 

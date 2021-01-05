@@ -17,7 +17,7 @@ om een inzicht te krijgen in welke groepen een risico zijn en hoe streng de beve
 
 Een DDOS aanval zorgt ervoor dat de website tijdelijk onbereikbaar is, Dit zorgt ervoor dat de klant minder positief wordt over de website. De impact is gematigd omdat de schade relatief beperkt is, de reputatie schade is niet enorm en er gaan geen belangrijke gegevens verloren. De waarschijnlijkheid is ook gemideld omdat het voornamelijk gaat om script kiddies die deze aanval uitvoeren op een bank, veel andere hackers zullen proberen meer schade aan te richten door geld of data te stelen. Dit betekend dat er een gematigd level van beveiliging moet zijn tegen DDOS aanvallen. DDOS aanvallen kunnen worden voorkomen door firewall regels en een backup server. mocht de eerste server uitvallen dan neemt de tweede het over. ook kan er gedaan worden aan loadballancing als de applicatie in de cloud wordt gehost.
 
-## Scriptkiddies, oppertunisten
+## Scriptkiddies, opportunisten
 
 Het grootste gevaar hier is schade voor de klant en incident reparatie kosten. Dit zorgt vaak voor economische schade voor de bank en een mogelijk verlies in vertrouwen. De impact blijft hier vaak beperkt omdat er vaak gebruikt wordt gemaakt van kleine aanvallen of maar een beperkt deel van de klanten valt voor de oplichter. De kans dat een oppertunist iets vind is niet groot maar de kans dat scriptkiddies de site aanvallen is wel groot omdat ze het vaak doen voor de kik en een bank aanvallen erg spannend is. Dit betekend dat er een Hoog level van beveiliging moet zijn. Dit valt te doen door input filtering en sterke wachtwoord eisen. Ook two-factor autenticatie zou hierbij kunnen helpen.
 

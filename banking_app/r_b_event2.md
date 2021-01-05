@@ -16,7 +16,7 @@ vor mijn eigen test heb ik de swagger page actief gelaten op de productie versie
 
 de redteamers hebben mijn seq logserver gevonden. Ze hebben geprobeerd om deze te bruteforcen maar dat is niet gelukt. De reden dat ze deze gevonden hebben is dat ik zelf bij mijn logs moet kunnen. Het zou better zijn om dit op een andere machine te zetten inplaats van in een docker container. Ik toch gekozen voor de docker container omdat dit een snellere opzet is. Het wachtwoord van mijn seq is random gegenereerd, daarom is het logisch dat ze er niet in zijn gekomen.
 
-### recaptcha
+### Recaptcha
 
 In het rapport van de redteamers staat dat ze geen interacties konden doen met de recaptcha. En het dus niet konden testen. Het klopt dat ze geen interacties konden doen met de recaptcha, ik heb namelijk versie 3 geimplementeerd waarbij er geen directe gebruikers input nodig is. Het niet kunnen testen van de recaptcha klopt niet volledig, ze konden een bruteforce poging doen, hieruit had kunnen blijken of de recaptcha werkt.
 

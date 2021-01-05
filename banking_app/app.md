@@ -63,7 +63,7 @@ De login zou zo veel mogelijk toegankelijk moeten zijn maar als het buiten berei
 
 Het gebruikers account bevat normale persoonlijke data dat is waarom die op personal staat. De andere data assets worden gezien als special personal omdat ze of wachtwoord of geld gerelateerd zijn.
 
-## Ontwikkel tools and technieken
+## Ontwikkel tools en technieken
 
 Ik ga ontwikkelen in asp.net core met een frontend van angular. Hier heb ik voor gekozen omdat ik hier de meeste ervaring mee heb. Ik gebruik entity framework om mijn queries te vergemakkelijken en een extra beveiliging toe te voegen.
 

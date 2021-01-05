@@ -14,7 +14,7 @@ Dit semester wil ik dieper in gaan op security aspecten die we al gehad hebben b
 
 De procedurele vaardigheden waar ik dit semester aan wil werken zijn het rapporteren en security testing. Aan het rapporteren moet ik werken omdat dit voor mij met mijn dyslectie een lastig onderwerp blijft. Security testing is een nieuw onderwerp voor mij en daarom zal ik daar ook aan moeten werken.
 
-### Profesionele houding
+### Professionele houding
 
 Ik wil dit semester er voor zorgen dat ik meer uit ga van security by design. De veiligheid van internet gerelateerde items wordt een steeds groter topic in de media en wordt hierdoor steeds belangrijk voor bedrijven en overheden. Hierdoor verwacht ik dat werkgevers steeds meer gaan verlangen naar het ontwerpen met de veiligheid als eerste gedachten.
 

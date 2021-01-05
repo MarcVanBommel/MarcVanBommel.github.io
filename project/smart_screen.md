@@ -2,7 +2,7 @@
 
 een van de IOT devices die we mogen testen is een Smart screen. Ik heb hier samen met rick veel aan gewerkt. Hierbij heeft Rick, omdat ik geen pentester ben, veel gedaan aan kennis deling. Voor mij is dit een interessant uitstap om mijn kennis te verbreden en op meer plekken in het project betrokken te raken.
 
-## android debug bridge
+## Android debug bridge
 
 na een nmap scan zagen we dat de Android debug bridge(ADB) poort standaard open stond. Dit betekent dat er via het internet verbonden kon worden met de ADB. Ik heb hierbij onderzoek gedaan naar de mogelijkheden en beperkingen van de ADB. Het bleek dat het verbinden met de ADB poort erg makkelijk was. met een commando was het gelukt, zonder gebruik van een wachtwoord of code. Dit komt het scherm gebruik maakt van android 8. In latere android versies is er een code nodig voor een connectie via de ADB poort.
 

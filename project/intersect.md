@@ -10,6 +10,6 @@ aan het begin van dit semester hadden we een aantal projecten om uit te kiezen o
 
 Om een beter beeld te krijgen van de impact van dit project heb ik eerst een eigen ethische analyse gemaakt. Dit heb ik gedaan via de TICT tool van fontys. hierbij heb ik gekeken naar de Impact van dit project op de gebruikers, hoe mensen het kunnen misbruiken en naar eventuele onbedoelde bijkomend heden. Hierbij moet gedacht worden aan de impact op het milieu maar ook de vooroordelen die mogelijkerwijs in het project kunnen staan. de volledige analyse kan [hier](../pdfs/TICT_Intersect.pdf) gevonden worden.
 
-## onderzoeks aanpak
+## onderzoeksaanpak
 
 Daarna heb ik nagedacht over hoofd en deel vragen en welke methodes van het DOT framework hierbij gebruikt kunnen worden. Dit heb ik opgeschreven en daarna hebben we het besproken met de groep om samen tot een hoofdvraag te komen. daarna hebben we alle deelvragen samengevoegd en besloten welke DOT methodes we gebruiken om alle vragen te trianguleren. Mijn volledige research approach kan [hier](../pdfs/Marc_research_approach.pdf) gevonden worden.

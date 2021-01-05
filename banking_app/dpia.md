@@ -1,4 +1,4 @@
-# Privacy inpact assesment
+# Privacy impact assessment
 
 Binnen een privacy inpact assesment wordt er gekeken of er privacy gevoelige informatie in de applicatie gebruikt word en hoe deze informatie wordt verwerkt. Er moet ook worden gekeken of de data verwerking noodzakelijk zijn en of er niet te veel data wordt verzameld. Verder moet er gekeken worden hoe gevoelig deze data is en wat de beveiligingsmogelijkheden zijn.
 
@@ -48,7 +48,7 @@ wettelijk gezien moet een bank de transacties van hun gebruikers een aantal jaar
 
 De kans dat mensen fraude proberen te plegen is groot, ze zien dit als een makkelijke manier om geld te verdienen en de kans dat ze opgepakt worden is klein. De schade is vaak significant omdat ze vaak dure concert tickets of dure producten "verkopen". Dit betekend dat het risico groot is.
 
-### belansting ontduiking
+### belasting ontduiking
 
 Omdat Nederland gunstige belastings afspraken heeft met een aantal belastings paradijzen is het aanlokkelijk voor grote bedrijven om geld via Nederlandse banken daarheen te sluizen. Ook rijke nederlanders zullen zelf proberen belasting te ontduiken. de impact hiervan is ernstig. Dit betekend dat het overal risico ook hoog is.
 
@@ -63,7 +63,7 @@ De kans dat dit gebeurt is kleiner als van de vorige twee punten maar is zeker a
 | fraude | het terugdraaien van transacties door admin | reduced          | low                 | ja                     |
 | belasting ontduiking | controllen over transacties   | reduced          | medium              | ja                     |
 | hacking accounts | time outs                         | reduced          | medium              | ja                     |
-| hacking accounts | capcha's                          | reduced          | medium              | ja                     |
+| hacking accounts | captcha's                          | reduced          | medium              | ja                     |
 | hacking accounts | wachtwoord eisen                  | reduced          | medium              | ja                     |
 | hacking accounts | two-factor autenticatie           | reduced          | low                 | ja                     |
 

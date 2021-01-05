@@ -28,15 +28,15 @@ Iedereen kent facebook wel, het is een van de grootste socialmedia bedrijven ter
 * Ontwikkel en onderhoud grote industrie expertise, als wel als expertise over facebook veiligheid mogelijkheden.
 * voer veiligheids reviews uit voor interne services, identificeer risico's en stel oplossingen voor.
 
-de eisen van facebook zijn alsvolgd:
+de eisen van facebook zijn als volgt:
 
 * 7 jaar of meer ervaring met gegevens beveiliging
-* technische ervaring over meerdere veiligheids diciplines zoals web applicaties, mobile, infrastructuur, hardware, etc.
-* ervaring met interpreted of compiled programming languages
+* Technische ervaring over meerdere veiligheids diciplines zoals web applicaties, mobile, infrastructuur, hardware, etc.
+* Ervaring met interpreted of compiled programming languages
 * Ervaring in het communiceren van veiligheids risico's en plannen om ze aan te pakken met het senior management.
 * Ervaring in het opbouwen van relaties met key stakeholders en bedrijfsleiders.
 * Applicatie beoordelings ervaring voor full-stack web-based en mobile applicaties.
-* Ervaring met beveilinging op de schaal van facebook.
+* Ervaring met beveiliging op de schaal van facebook.
 * Ervaring in threat modelerings technieken zoals STRIDE.
 
 ### WeTransfer Application Sercurity Engineer

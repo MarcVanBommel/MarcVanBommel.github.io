@@ -17,5 +17,3 @@ De vrije universiteit van amsterdam bied een eenjarige master aan genaamd inform
 ### UVA
 
 De universiteit van amsterdam heeft ook twee interesanten masters. De eerste master is software engineering hierbij wordt er dieper ingegaan op de technische vaardigheden en op ontwerp en communicatie vaardigheden. deze master heeft een online opendag op 23 november. De andere optie is Security en network engineering. dit focust deels op de cyber security onderwerpen, forensics, blue en red teaming. Het andere deel is networking, wat dieper ingaat op het opzetten en het werken van een netwerk. De blue teaming en het netwerk gedeelten liggen me minder bij deze master. Het gevoel wat ik krijg bij deze master is dat ze twee lossen onderwerpen in een master hebben gestopt maar er niet extreem veel verbinding is tussen de onderwerpen terwijl dit zeker wel mogelijk is. de online opendag is helaas al geweest.
-
-### TUDElft

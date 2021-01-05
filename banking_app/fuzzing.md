@@ -20,7 +20,7 @@ alle drie de testen slagen dit betekend dat mijn login methode beveiligd is tege
 
 ![unit testexplore](../images/test_explorer_sqli_unittest.PNG){: }
 
-## BufferOverflow fuzzing
+## Buffer Overflow fuzzing
 
 ### unit testen
 
@@ -38,6 +38,6 @@ Na het toepassen van een kleine verbetering heb ik deze test nogmaals geprobeerd
 
 ![burp suite result na verbetering](../images/burp_int-overflow_fix.PNG){: }
 
-## conclussie
+## conclusie
 
 Het doel en de toegevoegde waarde van fuzzing zijn het testen van applicaties met abnormale waardes en zo proberen errors op te roepen. De onderdelen die ik gefuzzed heb zijn veilig, maar er zijn meer onderdelen van de applicatie die nog niet gefuzzed zijn. zo kan ik nog een fuzzing test schrijven over het overmaken van rare waardes als ik nog tijd over heb kan ik nog meer fuzzing testen schrijven om dit onderdeel verder aan te tonen.
