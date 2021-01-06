@@ -11,3 +11,7 @@ Ik ben begonnen met de tekst die ik geschreven had op onze site, Deze heb ik ver
 Nadat ik deze feedback verwerkt heb, heb ik mijn artikel naar mijn moeder gestuurd om ook een niet technische onderlegde persoon feedback te laten geven. Deze feedback heb ik ook verwerkt en hierdoor heb ik een aantal termen beter uitgelegd. Dit zorgt ervoor dat iedereen het artikel kan lezen.
 
 ![feedback moeder](../images/feedback_mom.PNG){:}
+
+Als laatste heb ik feedback gekregen van Joël. Deze feedback heb ik verwerkt en daarna heb ik de definitieve versie nog eens doorgelezen.
+
+![feedback Joël](../feedback_joel.PNG){:}
