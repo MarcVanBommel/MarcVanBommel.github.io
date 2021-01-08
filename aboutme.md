@@ -6,4 +6,4 @@ Ik zit momenteel in het 7de semester van de opleiding Fontys hogeschool ICT. Ik 
 
 # toekomst
 
-Het volgende semester heb ik mijn afstudeer stage, hier ben ik momenteel nog druk naar opzoek. Daarna wil ik een master gaan halen aan de universiteit.
+Het volgende semester heb ik mijn afstudeer stage, hiervoor heb ik een stage gevonden by ma-it. Daarna wil ik een master gaan halen aan de universiteit.
