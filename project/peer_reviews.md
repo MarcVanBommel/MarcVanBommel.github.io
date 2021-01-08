@@ -14,9 +14,11 @@ Met mijn eigen feedback ben ik blij, want het is natuurlijk fijn om te horen dat
 
 ![peerreview sprint 1](../images/peer_review_sprint1.jpg){: }
 
-Ik vind het goed dat we deze sprint duidelijke stappen hebben genomen om  de scope uit te breiden omdat we te veel dagen in deze sprint hebben gehad waarbij mensen niet wisten wat ze konden doen. 
+Ik vind het goed dat we deze sprint duidelijke stappen hebben genomen om  de scope uit te breiden omdat we te veel dagen in deze sprint hebben gehad waarbij mensen niet wisten wat ze konden doen.
 
 omdat ik dyslecties ben moet ik extra letten op mijn spelling en mijn documentatie altijd even na lopen op spelling hier hebben mijn groepsgenoten gelijk in. Ook kan ik altijd iemand vragen om mijn spelling na te lopen.
+
+Deze sprint ben ik de notaris geweest voor onze groep. hierbij heb ik alle standups genotuleerd en heb ik ook alle meetings met docenten en stakeholders genotuleerd. Deze notules heb ik beschikbaar gemaakt voor onze groep. tijdens de gesprekken heb ik steekworden genoteerd waarna ik naderhand de notule verder heb uitgeschreven.
 
 ## sprint 2
 
