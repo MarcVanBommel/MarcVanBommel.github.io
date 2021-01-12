@@ -48,6 +48,12 @@ Het plan was om meer uit te gaan van security by design. Dit semester ben ik beg
 
 Dit semester wou ik werken aan feedback vragen. Dit heb ik in het begin veel gedaan, hiermee heb ik voor mezelf bewezen dat ik het wel kan als ik er voldoende aan denk. halverwege het semester ben ik meer terug gevallen in mijn oude patroon. Dit vind ik zelf erg jammer en dit is dan ook iets waar ik aan moet blijven werken. Verder wou ik werken aan mijn presentatie vaardigheden, dit heb ik gedaan door een keer de sprint retrospective te presenteren. Als het kan wil ik dat ook komende sprint doen maar dat moet ik nog met mijn groep overleggen.
 
+### leerdoelen voor mijn Afstudeer stage
+
+![personal development](images/personal_development.PNG){:}
+
+dit semester is voor mij gebleken dat ik wat strakker moet leren plannen en mijn ontwerpen meer moet uitbreiden, ik doe teveel stappen in mijn hoofd en die moet ik ook uitschrijven zodat het ontwerp voor iedereen duidelijk is.
+
 ### positie arbeidsmarkt
 
 Ik heb door dit semester meer ervaring opgedaan in het ontwerpen en stimuleren van veiligheids verbeteringen, technische ervaring opgedaan over de web applicatie veiligheids dicipline. Verder heb ik ervaring opgedaan in het communiceren van veiligheids risico's en het maken van strategieen om ze op te lossen. Daarnaast heb ik ook ervaring opgedaan in het beorordelen van applicaties. Ook heb ik mijn kennis van vulnerabilities uitgebreid en met meer tools gewerkt. Wat ik nu nog nodig heb om te voldoen aan de vacatures voor software security engineer zijn vooral werkervaring en vaak een certificaat.
