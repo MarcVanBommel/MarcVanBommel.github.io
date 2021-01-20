@@ -46,7 +46,7 @@ Het plan was om meer uit te gaan van security by design. Dit semester ben ik beg
 
 ### zachte vaardigheden
 
-Dit semester wou ik werken aan feedback vragen. Dit heb ik in het begin veel gedaan, hiermee heb ik voor mezelf bewezen dat ik het wel kan als ik er voldoende aan denk. halverwege het semester ben ik meer terug gevallen in mijn oude patroon. Dit vind ik zelf erg jammer en dit is dan ook iets waar ik aan moet blijven werken. Verder wou ik werken aan mijn presentatie vaardigheden, dit heb ik gedaan door een keer de sprint retrospective te presenteren. Als het kan wil ik dat ook komende sprint doen maar dat moet ik nog met mijn groep overleggen.
+Dit semester wou ik werken aan feedback vragen. Dit heb ik in het begin veel gedaan, hiermee heb ik voor mezelf bewezen dat ik het wel kan als ik er voldoende aan denk. halverwege het semester ben ik meer terug gevallen in mijn oude patroon. Dit vind ik zelf erg jammer en dit is dan ook iets waar ik aan moet blijven werken. Verder wou ik werken aan mijn presentatie vaardigheden, dit heb ik gedaan door twee keer de sprint retrospective te presenteren. De tweede keer heb ik gekeken naar de feedback van mijn groeps genoten en deze in acht genomen.
 
 ### leerdoelen voor mijn Afstudeer stage
 
